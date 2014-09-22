@@ -7,6 +7,11 @@ awesome-python_.
 .. _SQLAlchemy: http://www.sqlalchemy.org/
 .. _awesome-python: https://github.com/vinta/awesome-python
 
+Licensed under a `Creative Commons Attribution-ShareAlike 4.0 International
+License`__.
+
+__ http://creativecommons.org/licenses/by-sa/4.0/
+
 .. contents:: Table of Contents
    :backlinks: none
 
