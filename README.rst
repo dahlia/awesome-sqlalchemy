@@ -81,6 +81,30 @@ WTForms-Alchemy_
 .. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.org/
 
 
+GIS and Spatial Databases
+-------------------------
+
+GeoAlchemy_
+   GeoAlchemy provides extensions to SQLAlchemy to work with spatial databases.
+
+   The current supported spatial database systems are PostGIS_, Spatialite_,
+   MySQL, Oracle, and MS SQL Server 2008.
+
+`GeoAlchemy 2`_
+   GeoAlchemy 2 provides extensions to SQLAlchemy for working with
+   spatial databases.
+
+   GeoAlchemy 2 focuses on PostGIS_.  PostGIS 1.5 and PostGIS 2 are supported.
+
+   GeoAlchemy 2 aims to be simpler than its predecessor, GeoAlchemy_.
+   Simpler to use, and simpler to maintain.
+
+.. _GeoAlchemy: https://geoalchemy.readthedocs.org/
+.. _GeoAlchemy 2: https://geoalchemy-2.readthedocs.org/
+.. _PostGIS: http://postgis.refractions.net/
+.. _Spatialite: http://www.gaia-gis.it/spatialite/
+
+
 Profilers
 ---------
 
