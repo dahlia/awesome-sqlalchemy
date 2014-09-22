@@ -97,7 +97,7 @@ WTForms-Alchemy_
 .. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.org/
 
 
-Full-text searching
+Full-text Searching
 -------------------
 
 SQLAlchemy-Searchable_
