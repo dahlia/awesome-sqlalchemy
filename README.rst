@@ -121,6 +121,23 @@ GeoAlchemy_
 .. _Spatialite: http://www.gaia-gis.it/spatialite/
 
 
+Internationalizations
+---------------------
+
+SQLAlchemy-i18n_
+   Internationalization extension for SQLAlchemy models.
+
+
+   - Stores translations in separate tables.
+   - Reflects translation table structures based on
+     parent model table structure.
+   - Supports forcing of given locale.
+   - Good performance (uses proxy dicts and other advanced SQLAlchemy
+     concepts for performance optimization).
+
+.. _SQLAlchemy-i18n: https://sqlalchemy-i18n.readthedocs.org/
+
+
 Profilers
 ---------
 
