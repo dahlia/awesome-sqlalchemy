@@ -24,3 +24,13 @@ sqlalchemy-migrate_
 
 .. _Alembic: https://alembic.readthedocs.org/
 .. _sqlalchemy-migrate: https://sqlalchemy-migrate.readthedocs.org/
+
+
+File/Image Attachments
+----------------------
+
+SQLAlchemy-ImageAttach_
+   SQLAlchemy-ImageAttach is a SQLAlchemy extension for attaching images
+   to entity objects.
+
+.. _SQLAlchemy-ImageAttach: https://sqlalchemy-imageattach.readthedocs.org/
