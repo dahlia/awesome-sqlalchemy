@@ -97,6 +97,15 @@ WTForms-Alchemy_
 .. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.org/
 
 
+Full-text searching
+-------------------
+
+SQLAlchemy-Searchable_
+   Full-text searchable models for SQLAlchemy. Only supports PostgreSQL.
+
+.. _SQLAlchemy-Searchable: https://sqlalchemy-searchable.readthedocs.org/
+
+
 GIS and Spatial Databases
 -------------------------
 
