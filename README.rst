@@ -59,6 +59,10 @@ Flask-SQLAlchemy_
    Flask-SQLAlchemy is an extension for Flask that adds support for
    SQLAlchemy to your application.
 
+Flask-SuperAdmin_
+   The admin interface framework for Flask.
+   With scaffolding for SQLAlchemy, MongoEngine and Django.
+
 zope.sqlalchemy_
    The aim of this package is to unify the plethora of existing packages
    integrating SQLAlchemy with Zope's transaction management.
@@ -66,4 +70,5 @@ zope.sqlalchemy_
    to define a zopeish way to configure engines.
 
 .. _Flask-SQLAlchemy: https://pythonhosted.org/Flask-SQLAlchemy/
+.. _Flask-SuperAdmin: https://github.com/syrusakbary/Flask-SuperAdmin
 .. _zope.sqlalchemy: https://pypi.python.org/pypi/zope.sqlalchemy
