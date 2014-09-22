@@ -101,6 +101,12 @@ ColanderAlchemy_
    Such Colander schemas can be used with libraries like Deform_ and helps
    remove the need for duplication of schema definitions.
 
+FormAlchemy_
+   FormAlchemy eliminates boilerplate by autogenerating HTML input fields from a
+   given model. FormAlchemy will try to figure out what kind of HTML code should
+   be returned by introspecting the model's properties and generate ready-to-use
+   HTML code that will fit the developer's application.
+
 WTForms-Alchemy_
    WTForms-Alchemy is a WTForms extension toolkit for easier creation of
    model based forms.  Strongly influenced by Django ModelForm.
@@ -108,6 +114,7 @@ WTForms-Alchemy_
 .. _Colander: http://docs.pylonsproject.org/projects/colander/
 .. _ColanderAlchemy: https://github.com/stefanofontanelli/ColanderAlchemy
 .. _Deform: http://docs.pylonsproject.org/projects/deform/
+.. _FormAlchemy: http://formalchemy.org/
 .. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.org/
 
 
