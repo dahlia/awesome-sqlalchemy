@@ -34,3 +34,20 @@ SQLAlchemy-ImageAttach_
    to entity objects.
 
 .. _SQLAlchemy-ImageAttach: https://sqlalchemy-imageattach.readthedocs.org/
+
+
+Web Framework Integrations
+--------------------------
+
+Flask-SQLAlchemy_
+   Flask-SQLAlchemy is an extension for Flask that adds support for
+   SQLAlchemy to your application.
+
+zope.sqlalchemy_
+   The aim of this package is to unify the plethora of existing packages
+   integrating SQLAlchemy with Zope's transaction management.
+   As such it seeks only to provide a data manager and makes no attempt
+   to define a zopeish way to configure engines.
+
+.. _Flask-SQLAlchemy: https://pythonhosted.org/Flask-SQLAlchemy/
+.. _zope.sqlalchemy: https://pypi.python.org/pypi/zope.sqlalchemy
