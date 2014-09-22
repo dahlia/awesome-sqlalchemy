@@ -19,11 +19,27 @@ __ http://creativecommons.org/licenses/by-sa/4.0/
 Data Structures
 ---------------
 
+SQLAlchemy-Continuum_
+   Versioning and auditing extension for SQLAlchemy.
+
+   - Creates versions for inserts, deletes and updates.
+   - Does not store updates which don't change anything.
+   - Supports alembic migrations.
+   - Can revert objects data as well as all object relations at given
+     transaction even if the object was deleted.
+   - Transactions can be queried afterwards using SQLAlchemy query syntax.
+   - Query for changed records at given transaction.
+   - Temporal relationship reflection. Version object's relationship show
+     the parent objects relationships as they where in that point in time.
+   - Supports native versioning for PostgreSQL database (trigger based
+     versioning).
+
 SQLAlchemy-ORM-tree_
    An implementation for SQLAlchemy-based applications of
    the nested-sets/modified-pre-order-tree-traversal technique for
    storing hierarchical data in a relational database.
 
+.. _SQLAlchemy-Continuum: https://sqlalchemy-continuum.readthedocs.org/
 .. _SQLAlchemy-ORM-tree: https://sqlalchemy-orm-tree.readthedocs.org/
 
 
