@@ -11,6 +11,17 @@ awesome-python_.
    :backlinks: none
 
 
+Data Structures
+---------------
+
+SQLAlchemy-ORM-tree_
+   An implementation for SQLAlchemy-based applications of
+   the nested-sets/modified-pre-order-tree-traversal technique for
+   storing hierarchical data in a relational database.
+
+.. _SQLAlchemy-ORM-tree: https://sqlalchemy-orm-tree.readthedocs.org/
+
+
 Database Migration Tools
 ------------------------
 
