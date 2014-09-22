@@ -61,6 +61,26 @@ SQLAlchemy-ImageAttach_
 .. _SQLAlchemy-ImageAttach: https://sqlalchemy-imageattach.readthedocs.org/
 
 
+Forms and Data Validations
+--------------------------
+
+ColanderAlchemy_
+   ColanderAlchemy helps you to auto-generate Colander_ schemas that are based
+   on SQLAlchemy mapped classes.
+
+   Such Colander schemas can be used with libraries like Deform_ and helps
+   remove the need for duplication of schema definitions.
+
+WTForms-Alchemy_
+   WTForms-Alchemy is a WTForms extension toolkit for easier creation of
+   model based forms.  Strongly influenced by Django ModelForm.
+
+.. _Colander: http://docs.pylonsproject.org/projects/colander/
+.. _ColanderAlchemy: https://github.com/stefanofontanelli/ColanderAlchemy
+.. _Deform: http://docs.pylonsproject.org/projects/deform/
+.. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.org/
+
+
 Profilers
 ---------
 
