@@ -108,13 +108,14 @@ FormAlchemy_
    HTML code that will fit the developer's application.
 
 WTForms-Alchemy_
-   WTForms-Alchemy is a WTForms extension toolkit for easier creation of
+   WTForms-Alchemy is a WTForms_ extension toolkit for easier creation of
    model based forms.  Strongly influenced by Django ModelForm.
 
 .. _Colander: http://docs.pylonsproject.org/projects/colander/
 .. _ColanderAlchemy: https://github.com/stefanofontanelli/ColanderAlchemy
 .. _Deform: http://docs.pylonsproject.org/projects/deform/
 .. _FormAlchemy: http://formalchemy.org/
+.. _WTForms: https://wtforms.readthedocs.org/
 .. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.org/
 
 
@@ -197,7 +198,7 @@ Flask-SuperAdmin_
 
 zope.sqlalchemy_
    The aim of this package is to unify the plethora of existing packages
-   integrating SQLAlchemy with Zope's transaction management.
+   integrating SQLAlchemy with Zope_'s transaction management.
    As such it seeks only to provide a data manager and makes no attempt
    to define a zopeish way to configure engines.
 
