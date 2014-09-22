@@ -22,6 +22,15 @@ SQLAlchemy-ORM-tree_
 .. _SQLAlchemy-ORM-tree: https://sqlalchemy-orm-tree.readthedocs.org/
 
 
+Data Types
+----------
+
+SQLAlchemy-Utils_
+   Various utility functions, new data types and helpers for SQLAlchemy.
+
+.. _SQLAlchemy-Utils: https://sqlalchemy-utils.readthedocs.org/
+
+
 Database Migration Tools
 ------------------------
 
