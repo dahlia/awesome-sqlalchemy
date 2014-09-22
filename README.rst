@@ -81,7 +81,7 @@ sphinxalchemy_
 .. _sphinxalchemy: https://sphinxalchemy.readthedocs.org/
 
 
-File/Image Attachments
+File and Image Attachments
 ----------------------
 
 SQLAlchemy-ImageAttach_
