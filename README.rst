@@ -67,6 +67,20 @@ sqlalchemy-migrate_
 .. _sqlalchemy-migrate: https://sqlalchemy-migrate.readthedocs.org/
 
 
+Dialects
+--------
+
+redshift_sqlalchemy_
+   Amazon Redshift dialect for SQLAlchemy.
+
+sphinxalchemy_
+   SQLAlchemy dialect for iterfacing with Sphinx search engine via
+   SphinxQL.
+
+.. _redshift_sqlalchemy: https://github.com/binarydud/redshift_sqlalchemy
+.. _sphinxalchemy: https://sphinxalchemy.readthedocs.org/
+
+
 File/Image Attachments
 ----------------------
 
