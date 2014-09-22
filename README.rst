@@ -196,6 +196,10 @@ Flask-SuperAdmin_
    The admin interface framework for Flask_.
    With scaffolding for SQLAlchemy, MongoEngine and Django.
 
+pyramid_sqlalchemy_
+  pyramid_sqlalchemy provides everything needed to use SQLAlchemy in
+  Pyramid_ applications.
+  
 zope.sqlalchemy_
    The aim of this package is to unify the plethora of existing packages
    integrating SQLAlchemy with Zope_'s transaction management.
@@ -205,5 +209,7 @@ zope.sqlalchemy_
 .. _Flask: http://flask.pocoo.org/
 .. _Flask-SQLAlchemy: https://pythonhosted.org/Flask-SQLAlchemy/
 .. _Flask-SuperAdmin: https://github.com/syrusakbary/Flask-SuperAdmin
+.. _Pyramid: http://www.pylonsproject.org/
+.. _pyramid_sqlalchemy: https://pyramid-sqlalchemy.readthedocs.org
 .. _Zope: http://www.zope.org/
 .. _zope.sqlalchemy: https://pypi.python.org/pypi/zope.sqlalchemy
