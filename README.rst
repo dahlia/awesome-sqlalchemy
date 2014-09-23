@@ -34,6 +34,11 @@ SQLAlchemy-Continuum_
    - Supports native versioning for PostgreSQL database (trigger based
      versioning).
 
+Dataset_ 
+   Easy-to-use data handling for SQL data stores in Python with support for 
+   implicit table creation, bulk loading, and transaction. Dataset also 
+   includes support for freezing data to CSV and JSON flat files.
+
 SQLAlchemy-ORM-tree_
    An implementation for SQLAlchemy-based applications of
    the nested-sets/modified-pre-order-tree-traversal technique for
@@ -41,14 +46,7 @@ SQLAlchemy-ORM-tree_
 
 .. _SQLAlchemy-Continuum: https://sqlalchemy-continuum.readthedocs.org/
 .. _SQLAlchemy-ORM-tree: https://sqlalchemy-orm-tree.readthedocs.org/
-
-Dataset_ 
-   Easy-to-use data handling for SQL data stores in Python with support for 
-   implicit table creation, bulk loading, and transaction. Dataset also 
-   includes support for freezing data to CSV and JSON flat files.
-
-.. _Dataset on ReadtheDocs: https://dataset.readthedocs.org/en/latest/
-.. _Dataset on Github: https://github.com/pudo/dataset
+.. _Dataset: https://dataset.readthedocs.org/en/latest/
 
 
 Data Types
