@@ -2,10 +2,11 @@ Awesome SQLAlchemy
 ==================
 
 A curated list of awesome extra libraries for SQLAlchemy_.  Inspired by
-awesome-python_.
+awesome-python_.  (See also other `awesome lists`__!)
 
 .. _SQLAlchemy: http://www.sqlalchemy.org/
 .. _awesome-python: https://github.com/vinta/awesome-python
+__ https://github.com/sindresorhus/awesome
 
 Licensed under a `Creative Commons Attribution-ShareAlike 4.0 International
 License`__.
