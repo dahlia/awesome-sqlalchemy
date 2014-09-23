@@ -81,8 +81,8 @@ sphinxalchemy_
 .. _sphinxalchemy: https://sphinxalchemy.readthedocs.org/
 
 
-File/Image Attachments
-----------------------
+File and Image Attachments
+--------------------------
 
 SQLAlchemy-ImageAttach_
    SQLAlchemy-ImageAttach is a SQLAlchemy extension for attaching images
