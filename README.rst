@@ -82,7 +82,7 @@ sphinxalchemy_
 
 
 File and Image Attachments
-----------------------
+--------------------------
 
 SQLAlchemy-ImageAttach_
    SQLAlchemy-ImageAttach is a SQLAlchemy extension for attaching images
