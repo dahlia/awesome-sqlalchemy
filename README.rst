@@ -35,12 +35,19 @@ SQLAlchemy-Continuum_
    - Supports native versioning for PostgreSQL database (trigger based
      versioning).
 
+sqlalchemy_mptt_
+   Library for implementing MPTT (modified preorder tree traversal) with
+   SQLAlchemy models and working with trees of model instances,
+   like django-mptt_.
+
 SQLAlchemy-ORM-tree_
    An implementation for SQLAlchemy-based applications of
    the nested-sets/modified-pre-order-tree-traversal technique for
    storing hierarchical data in a relational database.
 
+.. _django-mptt: https://github.com/django-mptt/django-mptt/
 .. _SQLAlchemy-Continuum: https://sqlalchemy-continuum.readthedocs.org/
+.. _sqlalchemy_mptt: http://sqlalchemy-mptt.readthedocs.org/en/latest/
 .. _SQLAlchemy-ORM-tree: https://sqlalchemy-orm-tree.readthedocs.org/
 
 
@@ -218,8 +225,11 @@ sqlalchemy-crosstab-postgresql_
    https://github.com/makmanalp/sqlalchemy-crosstab-postgresql
 
 
-Web Framework Integrations
---------------------------
+Web
+---
+
+Framework Integrations
+......................
 
 bottle-sqlalchemy_
    A Bottle plugin to manage SQLAlchemy session to your application.
@@ -235,6 +245,12 @@ Flask-Admin_
 pyramid_sqlalchemy_
   pyramid_sqlalchemy provides everything needed to use SQLAlchemy in
   Pyramid_ applications.
+
+sacrud_
+   SACRUD will solve your problem of CRUD interface for SQLAlchemy,
+   by providing extension for Pyramid_ (yet) or use it in pure form.
+   Unlike classical CRUD interface, pyramid_sacrud allows override and
+   flexibly customize interface (that is closer to ``django.contrib.admin``).
   
 zope.sqlalchemy_
    The aim of this package is to unify the plethora of existing packages
@@ -248,5 +264,16 @@ zope.sqlalchemy_
 .. _Flask-Admin: https://github.com/mrjoes/flask-admin/
 .. _Pyramid: http://www.pylonsproject.org/
 .. _pyramid_sqlalchemy: https://pyramid-sqlalchemy.readthedocs.org
+.. _sacrud: http://sacrud.readthedocs.org/en/latest/
 .. _Zope: http://www.zope.org/
 .. _zope.sqlalchemy: https://pypi.python.org/pypi/zope.sqlalchemy
+
+
+Other
+.....
+
+paginate_sqlalchemy_
+   This module helps dividing large lists of items into pages.
+   The user is shown one page at a time and can navigate to other pages.
+   
+.. _paginate_sqlalchemy: https://github.com/Pylons/paginate_sqlalchemy
