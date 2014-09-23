@@ -201,9 +201,14 @@ zope.sqlalchemy_
    integrating SQLAlchemy with Zope_'s transaction management.
    As such it seeks only to provide a data manager and makes no attempt
    to define a zopeish way to configure engines.
+   
+bottle-sqlalchemy_
+   A Bottle plugin to manage SQLAlchemy session to your application.
 
 .. _Flask: http://flask.pocoo.org/
 .. _Flask-SQLAlchemy: https://pythonhosted.org/Flask-SQLAlchemy/
 .. _Flask-SuperAdmin: https://github.com/syrusakbary/Flask-SuperAdmin
 .. _Zope: http://www.zope.org/
+.. _bottle-sqlalchemy: https://github.com/iurisilvio/bottle-sqlalchemy
+
 .. _zope.sqlalchemy: https://pypi.python.org/pypi/zope.sqlalchemy
