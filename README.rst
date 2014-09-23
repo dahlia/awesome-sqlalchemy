@@ -4,13 +4,12 @@ Awesome SQLAlchemy
 A curated list of awesome extra libraries for SQLAlchemy_.  Inspired by
 awesome-python_.  (See also other `awesome lists`__!)
 
-.. _SQLAlchemy: http://www.sqlalchemy.org/
-.. _awesome-python: https://github.com/vinta/awesome-python
-__ https://github.com/sindresorhus/awesome
-
 Licensed under a `Creative Commons Attribution-ShareAlike 4.0 International
 License`__.
 
+.. _SQLAlchemy: http://www.sqlalchemy.org/
+.. _awesome-python: https://github.com/vinta/awesome-python
+__ https://github.com/sindresorhus/awesome
 __ http://creativecommons.org/licenses/by-sa/4.0/
 
 .. contents:: Table of Contents
@@ -189,6 +188,9 @@ SQLTap_
 Web Framework Integrations
 --------------------------
 
+bottle-sqlalchemy_
+   A Bottle plugin to manage SQLAlchemy session to your application.
+
 Flask-SQLAlchemy_
    Flask-SQLAlchemy is an extension for Flask_ that adds support for
    SQLAlchemy to your application.
@@ -202,14 +204,10 @@ zope.sqlalchemy_
    integrating SQLAlchemy with Zope_'s transaction management.
    As such it seeks only to provide a data manager and makes no attempt
    to define a zopeish way to configure engines.
-   
-bottle-sqlalchemy_
-   A Bottle plugin to manage SQLAlchemy session to your application.
 
+.. _bottle-sqlalchemy: https://github.com/iurisilvio/bottle-sqlalchemy
 .. _Flask: http://flask.pocoo.org/
 .. _Flask-SQLAlchemy: https://pythonhosted.org/Flask-SQLAlchemy/
 .. _Flask-Admin: https://github.com/mrjoes/flask-admin/
 .. _Zope: http://www.zope.org/
-.. _bottle-sqlalchemy: https://github.com/iurisilvio/bottle-sqlalchemy
-
 .. _zope.sqlalchemy: https://pypi.python.org/pypi/zope.sqlalchemy
