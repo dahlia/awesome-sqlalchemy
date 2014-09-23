@@ -14,6 +14,7 @@ __ http://creativecommons.org/licenses/by-sa/4.0/
 
 .. contents:: Table of Contents
    :backlinks: none
+   :depth: 3
 
 
 Data Structures
@@ -183,6 +184,20 @@ SQLTap_
    - where your application is issuing sql queries from
 
 .. _SQLTap: https://github.com/inconshreveable/sqltap
+
+
+Vendor-specific Extensions
+--------------------------
+
+PostgreSQL
+..........
+
+sqlalchemy-crosstab-postgresql_
+   New grammar for SQLAlchemy to make handling the ``crosstab()`` tablefunc
+   (i.e. pivot tables) in PostgreSQL easy peasy.
+
+.. _sqlalchemy-crosstab-postgresql:
+   https://github.com/makmanalp/sqlalchemy-crosstab-postgresql
 
 
 Web Framework Integrations
