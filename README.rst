@@ -39,9 +39,14 @@ SQLAlchemy-ORM-tree_
    An implementation for SQLAlchemy-based applications of
    the nested-sets/modified-pre-order-tree-traversal technique for
    storing hierarchical data in a relational database.
+   
+sqlalchemy_mptt_
+   Library for implementing Modified Preorder Tree Traversal with your SQLAlchemy Models
+   and working with trees of Model instances, like django-mptt.
 
 .. _SQLAlchemy-Continuum: https://sqlalchemy-continuum.readthedocs.org/
 .. _SQLAlchemy-ORM-tree: https://sqlalchemy-orm-tree.readthedocs.org/
+.. _sqlalchemy_mptt: http://sqlalchemy-mptt.readthedocs.org/en/latest/
 
 
 Data Types
@@ -50,7 +55,14 @@ Data Types
 SQLAlchemy-Utils_
    Various utility functions, new data types and helpers for SQLAlchemy.
 
+sacrud_
+   SACRUD will solve your problem of CRUD interface for SQLAlchemy,
+   by providing extension for Pyramid (yet) or use it in pure form.
+   Unlike classical CRUD interface, pyramid_sacrud allows override and
+   flexibly customize interface. (that is closer to django.contrib.admin)
+
 .. _SQLAlchemy-Utils: https://sqlalchemy-utils.readthedocs.org/
+.. _sacrud: http://sacrud.readthedocs.org/en/latest/
 
 
 Database Migration Tools
@@ -250,3 +262,12 @@ zope.sqlalchemy_
 .. _pyramid_sqlalchemy: https://pyramid-sqlalchemy.readthedocs.org
 .. _Zope: http://www.zope.org/
 .. _zope.sqlalchemy: https://pypi.python.org/pypi/zope.sqlalchemy
+
+Other
+-----
+
+paginate_sqlalchemy_
+   This module helps dividing large lists of items into pages. The user is shown one page at a time and
+   can navigate to other pages
+   
+.. _paginate_sqlalchemy: https://github.com/Pylons/paginate_sqlalchemy
