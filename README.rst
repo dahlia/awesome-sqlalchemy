@@ -42,6 +42,14 @@ SQLAlchemy-ORM-tree_
 .. _SQLAlchemy-Continuum: https://sqlalchemy-continuum.readthedocs.org/
 .. _SQLAlchemy-ORM-tree: https://sqlalchemy-orm-tree.readthedocs.org/
 
+Dataset_ 
+   Easy-to-use data handling for SQL data stores in Python with support for 
+   implicit table creation, bulk loading, and transaction. Dataset also 
+   includes support for freezing data to CSV and JSON flat files.
+
+.. _Dataset on ReadtheDocs: https://dataset.readthedocs.org/en/latest/
+.. _Dataset on Github: https://github.com/pudo/dataset
+
 
 Data Types
 ----------
