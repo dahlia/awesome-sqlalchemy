@@ -186,6 +186,17 @@ SQLTap_
 .. _SQLTap: https://github.com/inconshreveable/sqltap
 
 
+Thin Abstractions
+-----------------
+
+Dataset_ 
+   Easy-to-use data handling for SQL data stores in Python with support for 
+   implicit table creation, bulk loading, and transaction. Dataset also 
+   includes support for freezing data to CSV and JSON flat files.
+
+.. _Dataset: https://dataset.readthedocs.org/
+
+
 Vendor-specific Extensions
 --------------------------
 
