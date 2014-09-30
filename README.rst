@@ -269,6 +269,15 @@ zope.sqlalchemy_
 .. _zope.sqlalchemy: https://pypi.python.org/pypi/zope.sqlalchemy
 
 
+Testing
+-------
+
+mixer_
+   Generating fake data and creating random fixtures for testing in SQLAlchemy and many others python ORM.
+
+.. _mixer: https://github.com/klen/mixer
+
+
 Other
 .....
 
