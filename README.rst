@@ -180,6 +180,12 @@ SQLAlchemy-i18n_
 Profilers
 ---------
 
+flask_debugtoolbar_
+   Debug toolbar with SQLAlchemy query information for Flask.
+
+pyramid_debugtoolbar_
+   Debug toolbar with SQLAlchemy query information for Pyramid.
+
 SQLTap_
    SQLTap is a library that allows you to profile and introspect the queries
    that your application makes using SQLAlchemy.
@@ -190,6 +196,8 @@ SQLTap_
    - how much time your sql queries take
    - where your application is issuing sql queries from
 
+.. _flask_debugtoolbar: https://github.com/mgood/flask-debugtoolbar
+.. _pyramid_debugtoolbar: https://github.com/Pylons/pyramid_debugtoolbar
 .. _SQLTap: https://github.com/inconshreveable/sqltap
 
 
