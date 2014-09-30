@@ -193,6 +193,16 @@ SQLTap_
 .. _SQLTap: https://github.com/inconshreveable/sqltap
 
 
+Testing
+-------
+
+mixer_
+   Generating fake data and creating random fixtures for testing in SQLAlchemy
+   and many others python ORM.
+
+.. _mixer: https://github.com/klen/mixer
+
+
 Thin Abstractions
 -----------------
 
@@ -267,15 +277,6 @@ zope.sqlalchemy_
 .. _sacrud: http://sacrud.readthedocs.org/en/latest/
 .. _Zope: http://www.zope.org/
 .. _zope.sqlalchemy: https://pypi.python.org/pypi/zope.sqlalchemy
-
-
-Testing
--------
-
-mixer_
-   Generating fake data and creating random fixtures for testing in SQLAlchemy and many others python ORM.
-
-.. _mixer: https://github.com/klen/mixer
 
 
 Other
