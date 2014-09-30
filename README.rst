@@ -55,7 +55,19 @@ Data Types
 ----------
 
 SQLAlchemy-Utils_
-   Various utility functions, new data types and helpers for SQLAlchemy.
+   Various utility functions, new data types and helpers for SQLAlchemy
+
+   - Listeners
+   - Data types: {..., ChoiceType, CountryType, JSONType, URLType, UUIDType, ...}
+   - Range data types
+   - Aggregated attributes
+   - Generates decorator
+   - Generic relationships
+   - Database helpers: create_database, drop_database
+   - Foreign key helpers
+   - ORM helpers
+   - Utility classes
+   - Model mixins: Timestamp (created, updated times)
 
 .. _SQLAlchemy-Utils: https://sqlalchemy-utils.readthedocs.org/
 
