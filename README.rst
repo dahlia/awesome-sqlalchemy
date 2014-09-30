@@ -196,10 +196,16 @@ SQLTap_
 Testing
 -------
 
-mixer_
-   Generating fake data and creating random fixtures for testing in SQLAlchemy
-   and many others python ORM.
+factory_boy_
+   
+   Generate fake data and create random fixtures for testing in SQLAlchemy
+   and many other Python ORM systems.
 
+mixer_
+   Generate fake data and create random fixtures for testing in SQLAlchemy
+   and many other Python ORM systems.
+
+.. _factory_boy: https://github.com/rbarrois/factory_boy
 .. _mixer: https://github.com/klen/mixer
 
 
