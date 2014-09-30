@@ -256,6 +256,11 @@ pyramid_sqlalchemy_
   pyramid_sqlalchemy provides everything needed to use SQLAlchemy in
   Pyramid_ applications.
 
+pyramid_restler_
+   pyramid_restler is a somewhat-opinionated toolkit for building
+   RESTful Web services and applications on top of the
+   Pyramid framework (with SQLAlchemy models).
+
 sacrud_
    SACRUD will solve your problem of CRUD interface for SQLAlchemy,
    by providing extension for Pyramid_ (yet) or use it in pure form.
@@ -273,6 +278,7 @@ zope.sqlalchemy_
 .. _Flask-SQLAlchemy: https://pythonhosted.org/Flask-SQLAlchemy/
 .. _Flask-Admin: https://github.com/mrjoes/flask-admin/
 .. _Pyramid: http://www.pylonsproject.org/
+.. _pyramid_restler: https://github.com/wylee/pyramid_restler
 .. _pyramid_sqlalchemy: https://pyramid-sqlalchemy.readthedocs.org
 .. _sacrud: http://sacrud.readthedocs.org/en/latest/
 .. _Zope: http://www.zope.org/
