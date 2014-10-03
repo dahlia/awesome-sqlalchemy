@@ -45,10 +45,14 @@ SQLAlchemy-ORM-tree_
    the nested-sets/modified-pre-order-tree-traversal technique for
    storing hierarchical data in a relational database.
 
+vdm_
+   Versioned domain model. Python library for revisioning/versioning of databases.
+
 .. _django-mptt: https://github.com/django-mptt/django-mptt/
 .. _SQLAlchemy-Continuum: https://sqlalchemy-continuum.readthedocs.org/
 .. _sqlalchemy_mptt: http://sqlalchemy-mptt.readthedocs.org/en/latest/
 .. _SQLAlchemy-ORM-tree: https://sqlalchemy-orm-tree.readthedocs.org/
+.. _vdm: https://github.com/okfn/vdm
 
 
 Data Types
