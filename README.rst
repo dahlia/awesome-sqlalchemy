@@ -93,6 +93,16 @@ sphinxalchemy_
 .. _sphinxalchemy: https://sphinxalchemy.readthedocs.org/
 
 
+Documentation
+---------------
+
+* http://docs.sqlalchemy.org/en/latest/
+* http://docs.sqlalchemy.org/en/latest/intro.html
+* http://docs.sqlalchemy.org/en/latest/core/tutorial.html
+* http://docs.sqlalchemy.org/en/latest/orm/tutorial.html
+* http://docs.sqlalchemy.org/en/latest/glossary.html
+
+
 File and Image Attachments
 --------------------------
 
