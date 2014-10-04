@@ -82,6 +82,8 @@ sqlalchemy-migrate_
 Dialects
 --------
 
+http://docs.sqlalchemy.org/en/latest/dialects/
+
 redshift_sqlalchemy_
    Amazon Redshift dialect for SQLAlchemy.
 
