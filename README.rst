@@ -221,7 +221,6 @@ Testing
 -------
 
 factory_boy_
-   
    Generate fake data and create random fixtures for testing in SQLAlchemy
    and many other Python ORM systems.
 
