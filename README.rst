@@ -138,7 +138,7 @@ WTForms-Alchemy_
 .. _Colander: http://docs.pylonsproject.org/projects/colander/
 .. _ColanderAlchemy: https://github.com/stefanofontanelli/ColanderAlchemy
 .. _Deform: http://docs.pylonsproject.org/projects/deform/
-.. _FormAlchemy: http://formalchemy.org/
+.. _FormAlchemy: https://github.com/FormAlchemy/formalchemy
 .. _WTForms: https://wtforms.readthedocs.org/
 .. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.org/
 
