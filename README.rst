@@ -217,6 +217,12 @@ SQLTap_
 .. _SQLTap: https://github.com/inconshreveable/sqltap
 
 
+Recipes
+-------
+
+* https://bitbucket.org/zzzeek/sqlalchemy/wiki/UsageRecipes
+
+
 Testing
 -------
 
