@@ -331,7 +331,7 @@ pyramid_restler_
 sacrud_
    SACRUD will solve your problem of CRUD interface for SQLAlchemy,
    by providing extension for Pyramid_ (yet) or use it in pure form.
-   Unlike classical CRUD interface, pyramid_sacrud allows override and
+   Unlike classical CRUD interface, pyramid_sacrud_ allows override and
    flexibly customize interface (that is closer to ``django.contrib.admin``).
 
 zope.sqlalchemy_
@@ -347,6 +347,7 @@ zope.sqlalchemy_
 .. _Flask-Admin: https://github.com/mrjoes/flask-admin/
 .. _Pyramid: http://www.pylonsproject.org/
 .. _pyramid_restler: https://github.com/wylee/pyramid_restler
+.. _pyramid_sacrud: https://pyramid-sacrud.readthedocs.org/
 .. _pyramid_sqlalchemy: https://pyramid-sqlalchemy.readthedocs.org
 .. _sacrud: http://sacrud.readthedocs.org/en/latest/
 .. _Zope: http://www.zope.org/
