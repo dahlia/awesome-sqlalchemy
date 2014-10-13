@@ -261,7 +261,7 @@ Dataset_
    includes support for freezing data to CSV and JSON flat files.
 
 rdflib-sqlalchemy_
-   RDFLib store using SQLAlchemy dbapi as back-end.
+   RDFLib_ store using SQLAlchemy dbapi as back-end.
 
 SQLSoup_
    SQLSoup provides a convenient way to map Python objects to
@@ -269,9 +269,8 @@ SQLSoup_
    It's built on top of the SQLAlchemy ORM and provides a super-minimalistic
    interface to an existing database.
 
-
-
 .. _Dataset: https://dataset.readthedocs.org/
+.. _RDFLib: https://github.com/RDFLib/rdflib
 .. _rdflib-sqlalchemy: https://github.com/RDFLib/rdflib-sqlalchemy
 .. _SQLSoup: https://sqlsoup.readthedocs.org/
 
