@@ -277,6 +277,19 @@ sqlalchemy-crosstab-postgresql_
    https://github.com/makmanalp/sqlalchemy-crosstab-postgresql
 
 
+Visualizations
+--------------
+
+sadisplay_
+   Simple package for describing SQLAlchemy schema and display raw database tables by reflecting feature.
+
+sqlalchemy_schemadisplay_
+   This module generates images from SQLAlchemy models.
+
+.. _sadisplay: https://bitbucket.org/estin/sadisplay
+.. _sqlalchemy_schemadisplay: https://github.com/fschulze/sqlalchemy_schemadisplay
+
+
 Web
 ---
 
@@ -308,7 +321,7 @@ sacrud_
    by providing extension for Pyramid_ (yet) or use it in pure form.
    Unlike classical CRUD interface, pyramid_sacrud allows override and
    flexibly customize interface (that is closer to ``django.contrib.admin``).
-  
+
 zope.sqlalchemy_
    The aim of this package is to unify the plethora of existing packages
    integrating SQLAlchemy with Zope_'s transaction management.
@@ -333,5 +346,5 @@ Other
 paginate_sqlalchemy_
    This module helps dividing large lists of items into pages.
    The user is shown one page at a time and can navigate to other pages.
-   
+
 .. _paginate_sqlalchemy: https://github.com/Pylons/paginate_sqlalchemy
