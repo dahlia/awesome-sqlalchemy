@@ -297,7 +297,7 @@ Framework Integrations
 ......................
 
 bottle-sqlalchemy_
-   A Bottle plugin to manage SQLAlchemy session to your application.
+   A Bottle_ plugin to manage SQLAlchemy session to your application.
 
 Flask-SQLAlchemy_
    Flask-SQLAlchemy is an extension for Flask_ that adds support for
@@ -328,6 +328,7 @@ zope.sqlalchemy_
    As such it seeks only to provide a data manager and makes no attempt
    to define a zopeish way to configure engines.
 
+.. _Bottle: http://bottlepy.org/
 .. _bottle-sqlalchemy: https://github.com/iurisilvio/bottle-sqlalchemy
 .. _Flask: http://flask.pocoo.org/
 .. _Flask-SQLAlchemy: https://pythonhosted.org/Flask-SQLAlchemy/
