@@ -97,13 +97,15 @@ Dialects
 http://docs.sqlalchemy.org/en/latest/dialects/
 
 redshift_sqlalchemy_
-   Amazon Redshift dialect for SQLAlchemy.
+   `Amazon Redshift`_ dialect for SQLAlchemy.
 
 sphinxalchemy_
-   SQLAlchemy dialect for iterfacing with Sphinx search engine via
+   SQLAlchemy dialect for iterfacing with Sphinx_ (search engine) via
    SphinxQL.
 
+.. _Amazon Redshift: https://aws.amazon.com/redshift/
 .. _redshift_sqlalchemy: https://github.com/binarydud/redshift_sqlalchemy
+.. _Sphinx: http://sphinxsearch.com/
 .. _sphinxalchemy: https://sphinxalchemy.readthedocs.org/
 
 
