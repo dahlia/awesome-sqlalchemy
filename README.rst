@@ -280,9 +280,13 @@ sqlalchemy-crosstab-postgresql_
 Visualizations
 --------------
 
+sadisplay_
+   Simple package for describing SQLAlchemy schema and display raw database tables by reflecting feature.
+
 sqlalchemy_schemadisplay_
    This module generates images from SQLAlchemy models.
 
+.. _sadisplay: https://bitbucket.org/estin/sadisplay
 .. _sqlalchemy_schemadisplay: https://github.com/fschulze/sqlalchemy_schemadisplay
 
 
