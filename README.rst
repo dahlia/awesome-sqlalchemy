@@ -1,7 +1,7 @@
 Awesome SQLAlchemy
 ==================
 
-A curated list of awesome extra libraries for SQLAlchemy_.  Inspired by
+A curated list of awesome extra libraries and resources for SQLAlchemy_.  Inspired by
 awesome-python_.  (See also other `awesome lists`__!)
 
 Licensed under a `Creative Commons Attribution-ShareAlike 4.0 International
