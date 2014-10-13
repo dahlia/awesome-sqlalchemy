@@ -50,7 +50,7 @@ vdm_
 
 .. _django-mptt: https://github.com/django-mptt/django-mptt/
 .. _SQLAlchemy-Continuum: https://sqlalchemy-continuum.readthedocs.org/
-.. _sqlalchemy_mptt: http://sqlalchemy-mptt.readthedocs.org/en/latest/
+.. _sqlalchemy_mptt: https://sqlalchemy-mptt.readthedocs.org/
 .. _SQLAlchemy-ORM-tree: https://sqlalchemy-orm-tree.readthedocs.org/
 .. _vdm: https://github.com/okfn/vdm
 
@@ -335,7 +335,7 @@ zope.sqlalchemy_
 .. _Pyramid: http://www.pylonsproject.org/
 .. _pyramid_restler: https://github.com/wylee/pyramid_restler
 .. _pyramid_sqlalchemy: https://pyramid-sqlalchemy.readthedocs.org
-.. _sacrud: http://sacrud.readthedocs.org/en/latest/
+.. _sacrud: https://sacrud.readthedocs.org/
 .. _Zope: http://www.zope.org/
 .. _zope.sqlalchemy: https://pypi.python.org/pypi/zope.sqlalchemy
 
