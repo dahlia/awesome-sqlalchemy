@@ -226,6 +226,9 @@ Recipes
 Testing
 -------
 
+charlatan_
+   Fixtures management for SQLAlchemy and other systems.
+
 factory_boy_
    Generate fake data and create random fixtures for testing in SQLAlchemy
    and many other Python ORM systems.
@@ -233,13 +236,11 @@ factory_boy_
 mixer_
    Generate fake data and create random fixtures for testing in SQLAlchemy
    and many other Python ORM systems.
-   
-charlatan_
-   Fixtures management for SQLAlchemy and other systems.
 
+
+.. _charlatan: https://github.com/uber/charlatan
 .. _factory_boy: https://github.com/rbarrois/factory_boy
 .. _mixer: https://github.com/klen/mixer
-.. _charlatan: https://github.com/uber/charlatan
 
 
 Thin Abstractions
