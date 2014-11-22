@@ -369,7 +369,7 @@ paginate_sqlalchemy_
 
 sandman_
    Generate a curl-able REST HTTP API with searching and filtering
-   for all tables in database; with Flask-SQLAlchemy
+   for all tables in database and an admin UI with Flask-SQLAlchemy
    and HTTP Basic Authentication.
 
 .. _paginate_sqlalchemy: https://github.com/Pylons/paginate_sqlalchemy
