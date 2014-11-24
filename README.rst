@@ -367,4 +367,10 @@ paginate_sqlalchemy_
    This module helps dividing large lists of items into pages.
    The user is shown one page at a time and can navigate to other pages.
 
+sandman_
+   Generate a curl-able REST HTTP API with searching and filtering
+   for all tables in a database and an admin UI with Flask-SQLAlchemy
+   and HTTP Basic Authentication.
+
 .. _paginate_sqlalchemy: https://github.com/Pylons/paginate_sqlalchemy
+.. _sandman: https://github.com/jeffknupp/sandman
