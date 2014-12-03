@@ -165,6 +165,11 @@ SQLAlchemy-Searchable_
 
 .. _SQLAlchemy-Searchable: https://sqlalchemy-searchable.readthedocs.org/
 
+SQLAlchemy-FullText-Search_
+   Fulltext search support with MySQL & SQLAlchemy.
+
+.. _SQLAlchemy-FullText-Search: https://github.com/mengzhuo/sqlalchemy-fulltext-search
+
 
 GIS and Spatial Databases
 -------------------------
