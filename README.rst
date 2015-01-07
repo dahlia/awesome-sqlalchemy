@@ -1,19 +1,20 @@
 Awesome SQLAlchemy
 ==================
 
-A curated list of awesome extra libraries for SQLAlchemy_.  Inspired by
-awesome-python_.
-
-.. _SQLAlchemy: http://www.sqlalchemy.org/
-.. _awesome-python: https://github.com/vinta/awesome-python
+A curated list of awesome extra libraries and resources for SQLAlchemy_.  Inspired by
+awesome-python_.  (See also other `awesome lists`__!)
 
 Licensed under a `Creative Commons Attribution-ShareAlike 4.0 International
 License`__.
 
+.. _SQLAlchemy: http://www.sqlalchemy.org/
+.. _awesome-python: https://github.com/vinta/awesome-python
+__ https://github.com/sindresorhus/awesome
 __ http://creativecommons.org/licenses/by-sa/4.0/
 
 .. contents:: Table of Contents
    :backlinks: none
+   :depth: 3
 
 
 Data Structures
@@ -34,20 +35,43 @@ SQLAlchemy-Continuum_
    - Supports native versioning for PostgreSQL database (trigger based
      versioning).
 
+sqlalchemy_mptt_
+   Library for implementing MPTT (modified preorder tree traversal) with
+   SQLAlchemy models and working with trees of model instances,
+   like django-mptt_.
+
 SQLAlchemy-ORM-tree_
    An implementation for SQLAlchemy-based applications of
    the nested-sets/modified-pre-order-tree-traversal technique for
    storing hierarchical data in a relational database.
 
+vdm_
+   Versioned domain model. Python library for revisioning/versioning of databases.
+
+.. _django-mptt: https://github.com/django-mptt/django-mptt/
 .. _SQLAlchemy-Continuum: https://sqlalchemy-continuum.readthedocs.org/
+.. _sqlalchemy_mptt: https://sqlalchemy-mptt.readthedocs.org/
 .. _SQLAlchemy-ORM-tree: https://sqlalchemy-orm-tree.readthedocs.org/
+.. _vdm: https://github.com/okfn/vdm
 
 
 Data Types
 ----------
 
 SQLAlchemy-Utils_
-   Various utility functions, new data types and helpers for SQLAlchemy.
+   Various utility functions, new data types and helpers for SQLAlchemy
+
+   - Listeners
+   - Data types: {..., ChoiceType, CountryType, JSONType, URLType, UUIDType, ...}
+   - Range data types
+   - Aggregated attributes
+   - Generates decorator
+   - Generic relationships
+   - Database helpers: create_database, drop_database
+   - Foreign key helpers
+   - ORM helpers
+   - Utility classes
+   - Model mixins: Timestamp (created, updated times)
 
 .. _SQLAlchemy-Utils: https://sqlalchemy-utils.readthedocs.org/
 
@@ -70,19 +94,33 @@ sqlalchemy-migrate_
 Dialects
 --------
 
+http://docs.sqlalchemy.org/en/latest/dialects/
+
 redshift_sqlalchemy_
-   Amazon Redshift dialect for SQLAlchemy.
+   `Amazon Redshift`_ dialect for SQLAlchemy.
 
 sphinxalchemy_
-   SQLAlchemy dialect for iterfacing with Sphinx search engine via
+   SQLAlchemy dialect for iterfacing with Sphinx_ (search engine) via
    SphinxQL.
 
+.. _Amazon Redshift: https://aws.amazon.com/redshift/
 .. _redshift_sqlalchemy: https://github.com/binarydud/redshift_sqlalchemy
+.. _Sphinx: http://sphinxsearch.com/
 .. _sphinxalchemy: https://sphinxalchemy.readthedocs.org/
 
 
-File/Image Attachments
-----------------------
+Documentation
+---------------
+
+* http://docs.sqlalchemy.org/en/latest/
+* http://docs.sqlalchemy.org/en/latest/intro.html
+* http://docs.sqlalchemy.org/en/latest/core/tutorial.html
+* http://docs.sqlalchemy.org/en/latest/orm/tutorial.html
+* http://docs.sqlalchemy.org/en/latest/glossary.html
+
+
+File and Image Attachments
+--------------------------
 
 SQLAlchemy-ImageAttach_
    SQLAlchemy-ImageAttach is a SQLAlchemy extension for attaching images
@@ -114,7 +152,7 @@ WTForms-Alchemy_
 .. _Colander: http://docs.pylonsproject.org/projects/colander/
 .. _ColanderAlchemy: https://github.com/stefanofontanelli/ColanderAlchemy
 .. _Deform: http://docs.pylonsproject.org/projects/deform/
-.. _FormAlchemy: http://formalchemy.org/
+.. _FormAlchemy: https://github.com/FormAlchemy/formalchemy
 .. _WTForms: https://wtforms.readthedocs.org/
 .. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.org/
 
@@ -126,6 +164,11 @@ SQLAlchemy-Searchable_
    Full-text searchable models for SQLAlchemy. Only supports PostgreSQL.
 
 .. _SQLAlchemy-Searchable: https://sqlalchemy-searchable.readthedocs.org/
+
+SQLAlchemy-FullText-Search_
+   Fulltext search support with MySQL & SQLAlchemy.
+
+.. _SQLAlchemy-FullText-Search: https://github.com/mengzhuo/sqlalchemy-fulltext-search
 
 
 GIS and Spatial Databases
@@ -172,6 +215,12 @@ SQLAlchemy-i18n_
 Profilers
 ---------
 
+flask_debugtoolbar_
+   Debug toolbar with SQLAlchemy query information for Flask.
+
+pyramid_debugtoolbar_
+   Debug toolbar with SQLAlchemy query information for Pyramid.
+
 SQLTap_
    SQLTap is a library that allows you to profile and introspect the queries
    that your application makes using SQLAlchemy.
@@ -182,19 +231,119 @@ SQLTap_
    - how much time your sql queries take
    - where your application is issuing sql queries from
 
+.. _flask_debugtoolbar: https://github.com/mgood/flask-debugtoolbar
+.. _pyramid_debugtoolbar: https://github.com/Pylons/pyramid_debugtoolbar
 .. _SQLTap: https://github.com/inconshreveable/sqltap
 
 
-Web Framework Integrations
+Recipes
+-------
+
+* https://bitbucket.org/zzzeek/sqlalchemy/wiki/UsageRecipes
+
+
+Testing
+-------
+
+charlatan_
+   Fixtures management for SQLAlchemy and other systems.
+
+factory_boy_
+   Generate fake data and create random fixtures for testing in SQLAlchemy
+   and many other Python ORM systems.
+
+mixer_
+   Generate fake data and create random fixtures for testing in SQLAlchemy
+   and many other Python ORM systems.
+
+
+.. _charlatan: https://github.com/uber/charlatan
+.. _factory_boy: https://github.com/rbarrois/factory_boy
+.. _mixer: https://github.com/klen/mixer
+
+
+Thin Abstractions
+-----------------
+
+Dataset_
+   Easy-to-use data handling for SQL data stores in Python with support for
+   implicit table creation, bulk loading, and transaction. Dataset also
+   includes support for freezing data to CSV and JSON flat files.
+
+rdflib-sqlalchemy_
+   RDFLib_ store using SQLAlchemy dbapi as back-end.
+
+SQLSoup_
+   SQLSoup provides a convenient way to map Python objects to
+   relational database tables, with no declarative code of any kind.
+   It's built on top of the SQLAlchemy ORM and provides a super-minimalistic
+   interface to an existing database.
+
+.. _Dataset: https://dataset.readthedocs.org/
+.. _RDFLib: https://github.com/RDFLib/rdflib
+.. _rdflib-sqlalchemy: https://github.com/RDFLib/rdflib-sqlalchemy
+.. _SQLSoup: https://sqlsoup.readthedocs.org/
+
+
+
+Vendor-specific Extensions
 --------------------------
+
+PostgreSQL
+..........
+
+sqlalchemy-crosstab-postgresql_
+   New grammar for SQLAlchemy to make handling the ``crosstab()`` tablefunc
+   (i.e. pivot tables) in PostgreSQL easy peasy.
+
+.. _sqlalchemy-crosstab-postgresql:
+   https://github.com/makmanalp/sqlalchemy-crosstab-postgresql
+
+
+Visualizations
+--------------
+
+sadisplay_
+   Simple package for describing SQLAlchemy schema and display raw database tables by reflecting feature.
+
+sqlalchemy_schemadisplay_
+   This module generates images from SQLAlchemy models.
+
+.. _sadisplay: https://bitbucket.org/estin/sadisplay
+.. _sqlalchemy_schemadisplay: https://github.com/fschulze/sqlalchemy_schemadisplay
+
+
+Web
+---
+
+Framework Integrations
+......................
+
+bottle-sqlalchemy_
+   A Bottle_ plugin to manage SQLAlchemy session to your application.
 
 Flask-SQLAlchemy_
    Flask-SQLAlchemy is an extension for Flask_ that adds support for
    SQLAlchemy to your application.
 
-Flask-SuperAdmin_
+Flask-Admin_
    The admin interface framework for Flask_.
-   With scaffolding for SQLAlchemy, MongoEngine and Django.
+   With scaffolding for SQLAlchemy, MongoEngine, pymongo and Peewee.
+
+pyramid_sqlalchemy_
+  pyramid_sqlalchemy provides everything needed to use SQLAlchemy in
+  Pyramid_ applications.
+
+pyramid_restler_
+   pyramid_restler is a somewhat-opinionated toolkit for building
+   RESTful Web services and applications on top of the
+   Pyramid framework (with SQLAlchemy models).
+
+sacrud_
+   SACRUD will solve your problem of CRUD interface for SQLAlchemy,
+   by providing extension for Pyramid_ (yet) or use it in pure form.
+   Unlike classical CRUD interface, pyramid_sacrud_ allows override and
+   flexibly customize interface (that is closer to ``django.contrib.admin``).
 
 SQLAlchemy-Wrapper_
     A light and framework-independent wrapper for SQLAlchemy that makes
@@ -210,9 +359,33 @@ zope.sqlalchemy_
    As such it seeks only to provide a data manager and makes no attempt
    to define a zopeish way to configure engines.
 
+.. _Bottle: http://bottlepy.org/
+.. _bottle-sqlalchemy: https://github.com/iurisilvio/bottle-sqlalchemy
 .. _Flask: http://flask.pocoo.org/
 .. _Flask-SQLAlchemy: https://pythonhosted.org/Flask-SQLAlchemy/
 .. _Flask-SuperAdmin: https://github.com/syrusakbary/Flask-SuperAdmin
+.. _Flask-Admin: https://github.com/mrjoes/flask-admin/
+.. _Pyramid: http://www.pylonsproject.org/
+.. _pyramid_restler: https://github.com/wylee/pyramid_restler
+.. _pyramid_sacrud: https://pyramid-sacrud.readthedocs.org/
+.. _pyramid_sqlalchemy: https://pyramid-sqlalchemy.readthedocs.org
+.. _sacrud: https://sacrud.readthedocs.org/
 .. _SQLAlchemy-Wrapper: https://github.com/lucuma/sqlalchemy-wrapper
 .. _Zope: http://www.zope.org/
 .. _zope.sqlalchemy: https://pypi.python.org/pypi/zope.sqlalchemy
+
+
+Other
+.....
+
+paginate_sqlalchemy_
+   This module helps dividing large lists of items into pages.
+   The user is shown one page at a time and can navigate to other pages.
+
+sandman_
+   Generate a curl-able REST HTTP API with searching and filtering
+   for all tables in a database and an admin UI with Flask-SQLAlchemy
+   and HTTP Basic Authentication.
+
+.. _paginate_sqlalchemy: https://github.com/Pylons/paginate_sqlalchemy
+.. _sandman: https://github.com/jeffknupp/sandman
