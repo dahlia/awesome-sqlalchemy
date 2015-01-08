@@ -265,9 +265,9 @@ mixer_
 Thin Abstractions
 -----------------
 
-Dataset_ 
-   Easy-to-use data handling for SQL data stores in Python with support for 
-   implicit table creation, bulk loading, and transaction. Dataset also 
+Dataset_
+   Easy-to-use data handling for SQL data stores in Python with support for
+   implicit table creation, bulk loading, and transaction. Dataset also
    includes support for freezing data to CSV and JSON flat files.
 
 rdflib-sqlalchemy_
@@ -345,6 +345,14 @@ sacrud_
    Unlike classical CRUD interface, pyramid_sacrud_ allows override and
    flexibly customize interface (that is closer to ``django.contrib.admin``).
 
+SQLAlchemy-Wrapper_
+    A light and framework-independent wrapper for SQLAlchemy that makes
+    it really easy to setup and use.
+
+    - Doesn't change the SQLAlchemy syntax.
+    - Can paginate the results of the queries.
+    - Support for muliple databases at the same time.
+
 zope.sqlalchemy_
    The aim of this package is to unify the plethora of existing packages
    integrating SQLAlchemy with Zope_'s transaction management.
@@ -361,6 +369,7 @@ zope.sqlalchemy_
 .. _pyramid_sacrud: https://pyramid-sacrud.readthedocs.org/
 .. _pyramid_sqlalchemy: https://pyramid-sqlalchemy.readthedocs.org
 .. _sacrud: https://sacrud.readthedocs.org/
+.. _SQLAlchemy-Wrapper: https://github.com/lucuma/sqlalchemy-wrapper
 .. _Zope: http://www.zope.org/
 .. _zope.sqlalchemy: https://pypi.python.org/pypi/zope.sqlalchemy
 
