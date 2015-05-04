@@ -242,6 +242,16 @@ Recipes
 * https://bitbucket.org/zzzeek/sqlalchemy/wiki/UsageRecipes
 
 
+Serialization and deserialization
+---------------------------------
+
+marshmallow-sqlalchemy_
+   SQLAlchemy integration with the marshmallow_ (de)serialization library.
+
+.. _marshmallow: https://marshmallow.readthedocs.org/
+.. _marshmallow-sqlalchemy: https://marshmallow-sqlalchemy.readthedocs.org/
+
+
 Testing
 -------
 
