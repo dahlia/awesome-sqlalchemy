@@ -320,7 +320,7 @@ sqlalchemy_schemadisplay_
    This module generates images from SQLAlchemy models.
    
 eralchemy_
-   ERAlchemy generates Entity Relation (ER) diagram (like the one below) from databases or from SQLAlchemy models.
+   ERAlchemy generates Entity Relation (ER) diagram from databases or from SQLAlchemy models.
 
 .. _sadisplay: https://bitbucket.org/estin/sadisplay
 .. _sqlalchemy_schemadisplay: https://github.com/fschulze/sqlalchemy_schemadisplay
