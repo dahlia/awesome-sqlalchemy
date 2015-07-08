@@ -230,10 +230,17 @@ SQLTap_
    - how many times a sql query is executed
    - how much time your sql queries take
    - where your application is issuing sql queries from
+   
+nplusone_
+   Auto-detect the n+1 queries problem in SQLAlchemy (and other Python ORMs)
+   
+   nplusone detects unnecessary queries caused by lazy loading and unused eager loading.
+   Integrates with Flask-SQLAlchemy.
 
 .. _flask_debugtoolbar: https://github.com/mgood/flask-debugtoolbar
 .. _pyramid_debugtoolbar: https://github.com/Pylons/pyramid_debugtoolbar
 .. _SQLTap: https://github.com/inconshreveable/sqltap
+.. _nplusone: https://github.com/jmcarp/nplusone
 
 
 Recipes
