@@ -1,6 +1,9 @@
 Awesome SQLAlchemy
 ==================
 
+.. image:: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
+   :target: https://github.com/sindresorhus/awesome
+
 A curated list of awesome extra libraries and resources for SQLAlchemy_.  Inspired by
 awesome-python_.  (See also other `awesome lists`__!)
 
