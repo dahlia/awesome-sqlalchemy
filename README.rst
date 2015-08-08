@@ -61,6 +61,9 @@ vdm_
 Data Types
 ----------
 
+SQLAlchemy-Enum34_
+   SQLAlchemy type to store standard ``enum.Enum`` values.
+
 SQLAlchemy-Utils_
    Various utility functions, new data types and helpers for SQLAlchemy
 
@@ -76,6 +79,7 @@ SQLAlchemy-Utils_
    - Utility classes
    - Model mixins: Timestamp (created, updated times)
 
+.. _SQLAlchemy-Enum34: https://github.com/spoqa/sqlalchemy-enum34
 .. _SQLAlchemy-Utils: https://sqlalchemy-utils.readthedocs.org/
 
 
