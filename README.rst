@@ -350,6 +350,11 @@ Framework Integrations
 bottle-sqlalchemy_
    A Bottle_ plugin to manage SQLAlchemy session to your application.
 
+filteralchemy_
+   Declarative query builder that auto-generates filter parameters from
+   models and parses request parameters using marshmallow-sqlalchemy_
+   and webargs_.
+
 Flask-SQLAlchemy_
    Flask-SQLAlchemy is an extension for Flask_ that adds support for
    SQLAlchemy to your application.
@@ -389,6 +394,7 @@ zope.sqlalchemy_
 
 .. _Bottle: http://bottlepy.org/
 .. _bottle-sqlalchemy: https://github.com/iurisilvio/bottle-sqlalchemy
+.. _filteralchemy: https://github.com/jmcarp/filteralchemy
 .. _Flask: http://flask.pocoo.org/
 .. _Flask-SQLAlchemy: https://pythonhosted.org/Flask-SQLAlchemy/
 .. _Flask-Admin: https://github.com/mrjoes/flask-admin/
@@ -398,6 +404,7 @@ zope.sqlalchemy_
 .. _pyramid_sqlalchemy: https://pyramid-sqlalchemy.readthedocs.org
 .. _sacrud: https://sacrud.readthedocs.org/
 .. _SQLAlchemy-Wrapper: https://github.com/lucuma/sqlalchemy-wrapper
+.. _webargs: https://github.com/sloria/webargs
 .. _Zope: http://www.zope.org/
 .. _zope.sqlalchemy: https://pypi.python.org/pypi/zope.sqlalchemy
 
@@ -408,7 +415,7 @@ Other
 paginate_sqlalchemy_
    This module helps dividing large lists of items into pages.
    The user is shown one page at a time and can navigate to other pages.
-
+   
 sandman_
    Generate a curl-able REST HTTP API with searching and filtering
    for all tables in a database and an admin UI with Flask-SQLAlchemy
