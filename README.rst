@@ -156,12 +156,20 @@ WTForms-Alchemy_
    WTForms-Alchemy is a WTForms_ extension toolkit for easier creation of
    model based forms.  Strongly influenced by Django ModelForm.
 
+Sprox_
+   Sprox provides an easy way to create forms for web content which are: 
+   automatically generated, easy to customize, and validated. Sprox also 
+   has powerful tools to help you display your content the way you want 
+   to with table and record viewers. Sprox provides a way to fill your 
+   widgets, whether they are forms or other content with customizable data.
+
 .. _Colander: http://docs.pylonsproject.org/projects/colander/
 .. _ColanderAlchemy: https://github.com/stefanofontanelli/ColanderAlchemy
 .. _Deform: http://docs.pylonsproject.org/projects/deform/
 .. _FormAlchemy: https://github.com/FormAlchemy/formalchemy
 .. _WTForms: https://wtforms.readthedocs.org/
 .. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.org/
+.. _Sprox: http://sprox.org/
 
 
 Full-text Searching
