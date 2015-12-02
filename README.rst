@@ -129,12 +129,18 @@ Documentation
 File and Image Attachments
 --------------------------
 
+filedepot_
+    DEPOT is a framework for easily storing and serving files in web
+    applications. Depot features simple integration with SQLAlchemy by providing
+    customized model field types for storing files attached to your ORM
+    document.
+
 SQLAlchemy-ImageAttach_
    SQLAlchemy-ImageAttach is a SQLAlchemy extension for attaching images
    to entity objects.
 
+.. _filedepot: http://depot.readthedocs.org/en/latest/
 .. _SQLAlchemy-ImageAttach: https://sqlalchemy-imageattach.readthedocs.org/
-
 
 Forms and Data Validations
 --------------------------
@@ -157,10 +163,10 @@ WTForms-Alchemy_
    model based forms.  Strongly influenced by Django ModelForm.
 
 Sprox_
-   Sprox provides an easy way to create forms for web content which are: 
-   automatically generated, easy to customize, and validated. Sprox also 
-   has powerful tools to help you display your content the way you want 
-   to with table and record viewers. Sprox provides a way to fill your 
+   Sprox provides an easy way to create forms for web content which are:
+   automatically generated, easy to customize, and validated. Sprox also
+   has powerful tools to help you display your content the way you want
+   to with table and record viewers. Sprox provides a way to fill your
    widgets, whether they are forms or other content with customizable data.
 
 .. _Colander: http://docs.pylonsproject.org/projects/colander/
@@ -245,10 +251,10 @@ SQLTap_
    - how many times a sql query is executed
    - how much time your sql queries take
    - where your application is issuing sql queries from
-   
+
 nplusone_
    Auto-detect the n+1 queries problem in SQLAlchemy (and other Python ORMs)
-   
+
    nplusone detects unnecessary queries caused by lazy loading and unused eager loading.
    Integrates with Flask-SQLAlchemy.
 
@@ -340,7 +346,7 @@ sadisplay_
 
 sqlalchemy_schemadisplay_
    This module generates images from SQLAlchemy models.
-   
+
 eralchemy_
    ERAlchemy generates Entity Relation (ER) diagram from databases or from SQLAlchemy models.
 
@@ -423,7 +429,7 @@ Other
 paginate_sqlalchemy_
    This module helps dividing large lists of items into pages.
    The user is shown one page at a time and can navigate to other pages.
-   
+
 sandman_
    Generate a curl-able REST HTTP API with searching and filtering
    for all tables in a database and an admin UI with Flask-SQLAlchemy
