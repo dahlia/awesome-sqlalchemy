@@ -129,18 +129,18 @@ Documentation
 File and Image Attachments
 --------------------------
 
-SQLAlchemy-ImageAttach_
-   SQLAlchemy-ImageAttach is a SQLAlchemy extension for attaching images
-   to entity objects.
-
 filedepot_
     DEPOT is a framework for easily storing and serving files in web
     applications. Depot features simple integration with SQLAlchemy by providing
     customized model field types for storing files attached to your ORM
     document.
 
-.. _SQLAlchemy-ImageAttach: https://sqlalchemy-imageattach.readthedocs.org/
+SQLAlchemy-ImageAttach_
+   SQLAlchemy-ImageAttach is a SQLAlchemy extension for attaching images
+   to entity objects.
+
 .. _filedepot: http://depot.readthedocs.org/en/latest/
+.. _SQLAlchemy-ImageAttach: https://sqlalchemy-imageattach.readthedocs.org/
 
 Forms and Data Validations
 --------------------------
