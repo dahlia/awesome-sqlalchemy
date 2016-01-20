@@ -213,7 +213,7 @@ GeoAlchemy_
 .. _GeoAlchemy: https://geoalchemy.readthedocs.org/
 .. _GeoAlchemy 2: https://geoalchemy-2.readthedocs.org/
 .. _PostGIS: http://postgis.refractions.net/
-.. _Spatialite: http://www.gaia-gis.it/spatialite/
+.. _Spatialite: http://www.gaia-gis.it/gaia-sins/
 
 
 Internationalizations
@@ -417,7 +417,7 @@ zope.sqlalchemy_
 .. _pyramid_sacrud: https://pyramid-sacrud.readthedocs.org/
 .. _pyramid_sqlalchemy: https://pyramid-sqlalchemy.readthedocs.org
 .. _sacrud: https://sacrud.readthedocs.org/
-.. _SQLAlchemy-Wrapper: https://github.com/lucuma/sqlalchemy-wrapper
+.. _SQLAlchemy-Wrapper: https://github.com/jpscaletti/sqlalchemy-wrapper
 .. _webargs: https://github.com/sloria/webargs
 .. _Zope: http://www.zope.org/
 .. _zope.sqlalchemy: https://pypi.python.org/pypi/zope.sqlalchemy
