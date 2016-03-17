@@ -152,6 +152,11 @@ ColanderAlchemy_
    Such Colander schemas can be used with libraries like Deform_ and helps
    remove the need for duplication of schema definitions.
 
+Flask-Validator_
+   Data validator for Flask and SQL-Alchemy, working at Model component 
+   with events, preventing invalid data in the columns.
+   The extension works with event listeners from SQLAlchemy.
+   
 FormAlchemy_
    FormAlchemy eliminates boilerplate by autogenerating HTML input fields from a
    given model. FormAlchemy will try to figure out what kind of HTML code should
@@ -169,19 +174,15 @@ Sprox_
    to with table and record viewers. Sprox provides a way to fill your
    widgets, whether they are forms or other content with customizable data.
 
-Flask-Validator_
-   Data validator for Flask and SQL-Alchemy, working at Model component 
-   with events, preventing invalid data in the columns.
-   The extension works with event listeners from SQLAlchemy.
 
 .. _Colander: http://docs.pylonsproject.org/projects/colander/
 .. _ColanderAlchemy: https://github.com/stefanofontanelli/ColanderAlchemy
 .. _Deform: http://docs.pylonsproject.org/projects/deform/
+.. _Flask-Validator: http://flask-validator.readthedocs.org/ 
 .. _FormAlchemy: https://github.com/FormAlchemy/formalchemy
 .. _WTForms: https://wtforms.readthedocs.org/
 .. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.org/
 .. _Sprox: http://sprox.org/
-.. _Flask-Validator: http://flask-validator.readthedocs.org/ 
 
 
 Full-text Searching
