@@ -340,9 +340,15 @@ PostgreSQL
 sqlalchemy-crosstab-postgresql_
    New grammar for SQLAlchemy to make handling the ``crosstab()`` tablefunc
    (i.e. pivot tables) in PostgreSQL easy peasy.
+   
+sqlalchemy-postgres-copy_
+   Wrapper for using PostgreSQL `COPY` with SQLAlchemy for efficient bulk data
+   imports and exports.
 
 .. _sqlalchemy-crosstab-postgresql:
    https://github.com/makmanalp/sqlalchemy-crosstab-postgresql
+.. _sqlalchemy-postgres-copy:
+   https://github.com/jmcarp/sqlalchemy-postgres-copy
 
 
 Visualizations
