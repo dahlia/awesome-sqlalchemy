@@ -424,7 +424,7 @@ zope.sqlalchemy_
 .. _filteralchemy: https://github.com/jmcarp/filteralchemy
 .. _Flask: http://flask.pocoo.org/
 .. _Flask-SQLAlchemy: https://pythonhosted.org/Flask-SQLAlchemy/
-.. _Flask-Admin: https://github.com/mrjoes/flask-admin/
+.. _Flask-Admin: https://github.com/flask-admin/flask-admin
 .. _Pyramid: http://www.pylonsproject.org/
 .. _pyramid_restler: https://github.com/wylee/pyramid_restler
 .. _pyramid_sacrud: https://pyramid-sacrud.readthedocs.org/
