@@ -64,6 +64,9 @@ Data Types
 SQLAlchemy-Enum34_
    SQLAlchemy type to store standard ``enum.Enum`` values.
 
+SQLAlchemy-Utc_
+   SQLAlchemy type to store aware ``datetime.datetime`` values.
+
 SQLAlchemy-Utils_
    Various utility functions, new data types and helpers for SQLAlchemy
 
@@ -80,6 +83,7 @@ SQLAlchemy-Utils_
    - Model mixins: Timestamp (created, updated times)
 
 .. _SQLAlchemy-Enum34: https://github.com/spoqa/sqlalchemy-enum34
+.. _SQLAlchemy-Utc: https://github.com/spoqa/sqlalchemy-utc
 .. _SQLAlchemy-Utils: https://sqlalchemy-utils.readthedocs.org/
 
 
