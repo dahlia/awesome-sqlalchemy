@@ -275,6 +275,18 @@ nplusone_
 .. _nplusone: https://github.com/jmcarp/nplusone
 
 
+Query helpers
+-------------
+
+sqlakeyset_
+   This library implements keyset-based paging for SQLAlchemy (both ORM and core).
+
+   This library has been tested with PostgreSQL and MariaDB/MySQL.
+   It should work with other SQLAlchemy-supported databases to provided they support ``row(`` syntax.
+
+.. _sqlakeyset: https://github.com/djrobstep/sqlakeyset
+
+
 Recipes
 -------
 
