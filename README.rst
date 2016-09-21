@@ -13,7 +13,7 @@ License`__.
 .. _SQLAlchemy: http://www.sqlalchemy.org/
 .. _awesome-python: https://github.com/vinta/awesome-python
 __ https://github.com/sindresorhus/awesome
-__ http://creativecommons.org/licenses/by-sa/4.0/
+__ https://creativecommons.org/licenses/by-sa/4.0/
 
 .. contents:: Table of Contents
    :backlinks: none
@@ -319,7 +319,7 @@ mixer_
 
 
 .. _charlatan: https://github.com/uber/charlatan
-.. _factory_boy: https://github.com/rbarrois/factory_boy
+.. _factory_boy: https://github.com/FactoryBoy/factory_boy
 .. _mixer: https://github.com/klen/mixer
 
 
