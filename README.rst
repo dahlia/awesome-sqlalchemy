@@ -121,7 +121,7 @@ sphinxalchemy_
 
 
 Documentation
----------------
+-------------
 
 * http://docs.sqlalchemy.org/en/latest/
 * http://docs.sqlalchemy.org/en/latest/intro.html
@@ -143,8 +143,14 @@ SQLAlchemy-ImageAttach_
    SQLAlchemy-ImageAttach is a SQLAlchemy extension for attaching images
    to entity objects.
 
+sqlalchemy-media_
+   Based on `SQLAlchemy-ImageAttach` but using JSON type instead of relation,
+   and SqlAlchemy's mutable facility, Also supports multiple stores per context.
+
 .. _filedepot: http://depot.readthedocs.org/en/latest/
 .. _SQLAlchemy-ImageAttach: https://sqlalchemy-imageattach.readthedocs.org/
+.. _sqlalchemy-media: https://github.com/pylover/sqlalchemy-media
+
 
 Forms and Data Validations
 --------------------------
