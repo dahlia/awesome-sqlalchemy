@@ -470,5 +470,9 @@ sandman2_
    for all tables in a database and an admin UI with Flask-SQLAlchemy
    and HTTP Basic Authentication.
 
+sqlalchemy_mixins_
+   A set of well-tested mixins that brings Active Record, Django-like queries, nested eager load and beauty __repr__ to your SQLAlchemy.
+  
 .. _paginate_sqlalchemy: https://github.com/Pylons/paginate_sqlalchemy
 .. _sandman2: https://github.com/jeffknupp/sandman2
+.. _sqlalchemy_mixins: https://github.com/absent1706/sqlalchemy-mixins
