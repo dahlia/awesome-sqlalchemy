@@ -114,10 +114,16 @@ sphinxalchemy_
    SQLAlchemy dialect for iterfacing with Sphinx_ (search engine) via
    SphinxQL.
 
+GINO_
+   An asynchronous PostgreSQL dialect for asyncpg_, providing SQLAlchemy
+   core support and its own asynchronous ORM interface.
+
 .. _Amazon Redshift: https://aws.amazon.com/redshift/
 .. _redshift_sqlalchemy: https://github.com/binarydud/redshift_sqlalchemy
 .. _Sphinx: http://sphinxsearch.com/
 .. _sphinxalchemy: https://sphinxalchemy.readthedocs.org/
+.. _GINO: https://github.com/fantix/gino
+.. _asyncpg: https://github.com/MagicStack/asyncpg
 
 
 Documentation
