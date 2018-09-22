@@ -52,9 +52,9 @@ vdm_
    Versioned domain model. Python library for revisioning/versioning of databases.
 
 .. _django-mptt: https://github.com/django-mptt/django-mptt/
-.. _SQLAlchemy-Continuum: https://sqlalchemy-continuum.readthedocs.org/
-.. _sqlalchemy_mptt: https://sqlalchemy-mptt.readthedocs.org/
-.. _SQLAlchemy-ORM-tree: https://sqlalchemy-orm-tree.readthedocs.org/
+.. _SQLAlchemy-Continuum: https://sqlalchemy-continuum.readthedocs.io/
+.. _sqlalchemy_mptt: https://sqlalchemy-mptt.readthedocs.io/
+.. _SQLAlchemy-ORM-tree: https://sqlalchemy-orm-tree.readthedocs.io/
 .. _vdm: https://github.com/okfn/vdm
 
 
@@ -84,7 +84,7 @@ SQLAlchemy-Utils_
 
 .. _SQLAlchemy-Enum34: https://github.com/spoqa/sqlalchemy-enum34
 .. _SQLAlchemy-Utc: https://github.com/spoqa/sqlalchemy-utc
-.. _SQLAlchemy-Utils: https://sqlalchemy-utils.readthedocs.org/
+.. _SQLAlchemy-Utils: https://sqlalchemy-utils.readthedocs.io/
 
 
 Database Migration Tools
@@ -98,8 +98,8 @@ sqlalchemy-migrate_
    Inspired by Ruby on Rails' migrations, SQLAlchemy Migrate provides
    a way to deal with database schema changes in SQLAlchemy projects.
 
-.. _Alembic: https://alembic.readthedocs.org/
-.. _sqlalchemy-migrate: https://sqlalchemy-migrate.readthedocs.org/
+.. _Alembic: https://alembic.readthedocs.io/
+.. _sqlalchemy-migrate: https://sqlalchemy-migrate.readthedocs.io/
 
 
 Dialects
@@ -117,7 +117,7 @@ sphinxalchemy_
 .. _Amazon Redshift: https://aws.amazon.com/redshift/
 .. _redshift_sqlalchemy: https://github.com/binarydud/redshift_sqlalchemy
 .. _Sphinx: http://sphinxsearch.com/
-.. _sphinxalchemy: https://sphinxalchemy.readthedocs.org/
+.. _sphinxalchemy: https://sphinxalchemy.readthedocs.io/
 
 
 Documentation
@@ -147,8 +147,8 @@ sqlalchemy-media_
    Based on `SQLAlchemy-ImageAttach` but using JSON type instead of relation,
    and SqlAlchemy's mutable facility, Also supports multiple stores per context.
 
-.. _filedepot: http://depot.readthedocs.org/en/latest/
-.. _SQLAlchemy-ImageAttach: https://sqlalchemy-imageattach.readthedocs.org/
+.. _filedepot: https://depot.readthedocs.io/
+.. _SQLAlchemy-ImageAttach: https://sqlalchemy-imageattach.readthedocs.io/
 .. _sqlalchemy-media: https://github.com/pylover/sqlalchemy-media
 
 
@@ -185,13 +185,13 @@ Sprox_
    widgets, whether they are forms or other content with customizable data.
 
 
-.. _Colander: http://docs.pylonsproject.org/projects/colander/
+.. _Colander: https://docs.pylonsproject.org/projects/colander/
 .. _ColanderAlchemy: https://github.com/stefanofontanelli/ColanderAlchemy
-.. _Deform: http://docs.pylonsproject.org/projects/deform/
-.. _Flask-Validator: http://flask-validator.readthedocs.org/ 
+.. _Deform: https://docs.pylonsproject.org/projects/deform/
+.. _Flask-Validator: https://flask-validator.readthedocs.io/ 
 .. _FormAlchemy: https://github.com/FormAlchemy/formalchemy
-.. _WTForms: https://wtforms.readthedocs.org/
-.. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.org/
+.. _WTForms: https://wtforms.readthedocs.io/
+.. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.io/
 .. _Sprox: http://sprox.org/
 
 
@@ -201,7 +201,7 @@ Full-text Searching
 SQLAlchemy-Searchable_
    Full-text searchable models for SQLAlchemy. Only supports PostgreSQL.
 
-.. _SQLAlchemy-Searchable: https://sqlalchemy-searchable.readthedocs.org/
+.. _SQLAlchemy-Searchable: https://sqlalchemy-searchable.readthedocs.io/
 
 SQLAlchemy-FullText-Search_
    Fulltext search support with MySQL & SQLAlchemy.
@@ -227,8 +227,8 @@ GeoAlchemy_
    GeoAlchemy 2 aims to be simpler than its predecessor, GeoAlchemy_.
    Simpler to use, and simpler to maintain.
 
-.. _GeoAlchemy: https://geoalchemy.readthedocs.org/
-.. _GeoAlchemy 2: https://geoalchemy-2.readthedocs.org/
+.. _GeoAlchemy: https://geoalchemy.readthedocs.io/
+.. _GeoAlchemy 2: https://geoalchemy-2.readthedocs.io/
 .. _PostGIS: http://postgis.refractions.net/
 .. _Spatialite: http://www.gaia-gis.it/gaia-sins/
 
@@ -247,7 +247,7 @@ SQLAlchemy-i18n_
    - Good performance (uses proxy dicts and other advanced SQLAlchemy
      concepts for performance optimization).
 
-.. _SQLAlchemy-i18n: https://sqlalchemy-i18n.readthedocs.org/
+.. _SQLAlchemy-i18n: https://sqlalchemy-i18n.readthedocs.io/
 
 
 Profilers
@@ -305,8 +305,8 @@ Serialization and deserialization
 marshmallow-sqlalchemy_
    SQLAlchemy integration with the marshmallow_ (de)serialization library.
 
-.. _marshmallow: https://marshmallow.readthedocs.org/
-.. _marshmallow-sqlalchemy: https://marshmallow-sqlalchemy.readthedocs.org/
+.. _marshmallow: https://marshmallow.readthedocs.io/
+.. _marshmallow-sqlalchemy: https://marshmallow-sqlalchemy.readthedocs.io/
 
 
 Testing
@@ -346,10 +346,10 @@ SQLSoup_
    It's built on top of the SQLAlchemy ORM and provides a super-minimalistic
    interface to an existing database.
 
-.. _Dataset: https://dataset.readthedocs.org/
+.. _Dataset: https://dataset.readthedocs.io/
 .. _RDFLib: https://github.com/RDFLib/rdflib
 .. _rdflib-sqlalchemy: https://github.com/RDFLib/rdflib-sqlalchemy
-.. _SQLSoup: https://sqlsoup.readthedocs.org/
+.. _SQLSoup: https://sqlsoup.readthedocs.io/
 
 
 
@@ -447,15 +447,15 @@ zope.sqlalchemy_
 .. _Flask: http://flask.pocoo.org/
 .. _Flask-SQLAlchemy: https://pythonhosted.org/Flask-SQLAlchemy/
 .. _Flask-Admin: https://github.com/flask-admin/flask-admin
-.. _Pyramid: http://pylonsproject.org/
+.. _Pyramid: https://trypyramid.com/
 .. _pyramid_restler: https://github.com/wylee/pyramid_restler
-.. _pyramid_sacrud: https://pyramid-sacrud.readthedocs.org/
-.. _pyramid_sqlalchemy: https://pyramid-sqlalchemy.readthedocs.org
-.. _sacrud: https://sacrud.readthedocs.org/
+.. _pyramid_sacrud: https://pyramid-sacrud.readthedocs.io/
+.. _pyramid_sqlalchemy: https://pyramid-sqlalchemy.readthedocs.io/
+.. _sacrud: https://sacrud.readthedocs.io/
 .. _SQLAlchemy-Wrapper: https://github.com/jpscaletti/sqlalchemy-wrapper
 .. _webargs: https://github.com/sloria/webargs
 .. _Zope: http://www.zope.org/
-.. _zope.sqlalchemy: https://pypi.python.org/pypi/zope.sqlalchemy
+.. _zope.sqlalchemy: https://pypi.org/project/zope.sqlalchemy/
 
 
 Other
