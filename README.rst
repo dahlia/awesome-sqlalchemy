@@ -359,6 +359,11 @@ Vendor-specific Extensions
 PostgreSQL
 ..........
 
+`Flask-SQLAlchemy-PGEvents <https://github.com/shawalli/flask-sqlalchemy-pgevents>`_
+   Flask extension that uses SQLAlchemy and
+   `psycopg2-pgevents <https://github.com/shawalli/psycopg2-pgevents>`_ to
+   enable event listeners tied into database-layer triggers.
+
 sqlalchemy-crosstab-postgresql_
    New grammar for SQLAlchemy to make handling the ``crosstab()`` tablefunc
    (i.e. pivot tables) in PostgreSQL easy peasy.
