@@ -302,7 +302,7 @@ sqlakeyset_
 Recipes
 -------
 
-* https://bitbucket.org/zzzeek/sqlalchemy/wiki/UsageRecipes
+* https://github.com/sqlalchemy/sqlalchemy/wiki/UsageRecipes
 
 
 Serialization and deserialization
