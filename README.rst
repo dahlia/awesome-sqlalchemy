@@ -229,6 +229,8 @@ GeoAlchemy_
    spatial databases.
 
    GeoAlchemy 2 focuses on PostGIS_.  PostGIS 1.5 and PostGIS 2 are supported.
+   Spatialite_ is also supported, but using GeoAlchemy 2 with Spatialite
+   requires some specific configuration on the application side.
 
    GeoAlchemy 2 aims to be simpler than its predecessor, GeoAlchemy_.
    Simpler to use, and simpler to maintain.
