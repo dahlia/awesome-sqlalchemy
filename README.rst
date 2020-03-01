@@ -10,7 +10,7 @@ awesome-python_.  (See also other `awesome lists`__!)
 Licensed under a `Creative Commons Attribution-ShareAlike 4.0 International
 License`__.
 
-.. _SQLAlchemy: http://www.sqlalchemy.org/
+.. _SQLAlchemy: https://www.sqlalchemy.org/
 .. _awesome-python: https://github.com/vinta/awesome-python
 __ https://github.com/sindresorhus/awesome
 __ https://creativecommons.org/licenses/by-sa/4.0/
@@ -105,7 +105,7 @@ sqlalchemy-migrate_
 Dialects
 --------
 
-http://docs.sqlalchemy.org/en/latest/dialects/
+https://docs.sqlalchemy.org/en/latest/dialects/
 
 redshift_sqlalchemy_
    `Amazon Redshift`_ dialect for SQLAlchemy.
@@ -120,20 +120,20 @@ GINO_
 
 .. _Amazon Redshift: https://aws.amazon.com/redshift/
 .. _redshift_sqlalchemy: https://github.com/binarydud/redshift_sqlalchemy
-.. _Sphinx: http://sphinxsearch.com/
+.. _Sphinx: https://sphinxsearch.com/
 .. _sphinxalchemy: https://sphinxalchemy.readthedocs.io/
-.. _GINO: https://github.com/fantix/gino
+.. _GINO: https://github.com/python-gino/gino
 .. _asyncpg: https://github.com/MagicStack/asyncpg
 
 
 Documentation
 -------------
 
-* http://docs.sqlalchemy.org/en/latest/
-* http://docs.sqlalchemy.org/en/latest/intro.html
-* http://docs.sqlalchemy.org/en/latest/core/tutorial.html
-* http://docs.sqlalchemy.org/en/latest/orm/tutorial.html
-* http://docs.sqlalchemy.org/en/latest/glossary.html
+* https://docs.sqlalchemy.org/en/latest/
+* https://docs.sqlalchemy.org/en/latest/intro.html
+* https://docs.sqlalchemy.org/en/latest/core/tutorial.html
+* https://docs.sqlalchemy.org/en/latest/orm/tutorial.html
+* https://docs.sqlalchemy.org/en/latest/glossary.html
 
 
 File and Image Attachments
@@ -198,7 +198,7 @@ Sprox_
 .. _FormAlchemy: https://github.com/FormAlchemy/formalchemy
 .. _WTForms: https://wtforms.readthedocs.io/
 .. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.io/
-.. _Sprox: http://sprox.org/
+.. _Sprox: https://sprox.org/
 
 
 Full-text Searching
@@ -235,8 +235,8 @@ GeoAlchemy_
 
 .. _GeoAlchemy: https://geoalchemy.readthedocs.io/
 .. _GeoAlchemy 2: https://geoalchemy-2.readthedocs.io/
-.. _PostGIS: http://postgis.refractions.net/
-.. _Spatialite: http://www.gaia-gis.it/gaia-sins/
+.. _PostGIS: https://postgis.net/
+.. _Spatialite: https://www.gaia-gis.it/gaia-sins/
 
 
 Internationalizations
@@ -281,7 +281,7 @@ nplusone_
    nplusone detects unnecessary queries caused by lazy loading and unused eager loading.
    Integrates with Flask-SQLAlchemy.
 
-.. _flask_debugtoolbar: https://github.com/mgood/flask-debugtoolbar
+.. _flask_debugtoolbar: https://github.com/flask-debugtoolbar/flask-debugtoolbar
 .. _pyramid_debugtoolbar: https://github.com/Pylons/pyramid_debugtoolbar
 .. _SQLTap: https://github.com/inconshreveable/sqltap
 .. _nplusone: https://github.com/jmcarp/nplusone
@@ -302,7 +302,7 @@ sqlakeyset_
 Recipes
 -------
 
-* https://bitbucket.org/zzzeek/sqlalchemy/wiki/UsageRecipes
+* https://github.com/sqlalchemy/sqlalchemy/wiki/UsageRecipes
 
 
 Serialization and deserialization
@@ -443,7 +443,7 @@ sacrud_
    Unlike classical CRUD interface, pyramid_sacrud_ allows override and
    flexibly customize interface (that is closer to ``django.contrib.admin``).
 
-SQLAlchemy-Wrapper_
+SQLA-wrapper_
     A light and framework-independent wrapper for SQLAlchemy that makes
     it really easy to setup and use.
 
@@ -457,10 +457,10 @@ zope.sqlalchemy_
    As such it seeks only to provide a data manager and makes no attempt
    to define a zopeish way to configure engines.
 
-.. _Bottle: http://bottlepy.org/
+.. _Bottle: https://bottlepy.org/
 .. _bottle-sqlalchemy: https://github.com/iurisilvio/bottle-sqlalchemy
 .. _filteralchemy: https://github.com/jmcarp/filteralchemy
-.. _Flask: http://flask.pocoo.org/
+.. _Flask: https://palletsprojects.com/p/flask/
 .. _Flask-SQLAlchemy: https://pythonhosted.org/Flask-SQLAlchemy/
 .. _Flask-Admin: https://github.com/flask-admin/flask-admin
 .. _Pyramid: https://trypyramid.com/
@@ -468,9 +468,9 @@ zope.sqlalchemy_
 .. _pyramid_sacrud: https://pyramid-sacrud.readthedocs.io/
 .. _pyramid_sqlalchemy: https://pyramid-sqlalchemy.readthedocs.io/
 .. _sacrud: https://sacrud.readthedocs.io/
-.. _SQLAlchemy-Wrapper: https://github.com/jpscaletti/sqlalchemy-wrapper
-.. _webargs: https://github.com/sloria/webargs
-.. _Zope: http://www.zope.org/
+.. _SQLA-wrapper: https://github.com/jpscaletti/sqla-wrapper
+.. _webargs: https://github.com/marshmallow-code/webargs
+.. _Zope: https://www.zope.org/
 .. _zope.sqlalchemy: https://pypi.org/project/zope.sqlalchemy/
 
 
