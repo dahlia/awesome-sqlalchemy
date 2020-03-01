@@ -10,7 +10,7 @@ awesome-python_.  (See also other `awesome lists`__!)
 Licensed under a `Creative Commons Attribution-ShareAlike 4.0 International
 License`__.
 
-.. _SQLAlchemy: http://www.sqlalchemy.org/
+.. _SQLAlchemy: https://www.sqlalchemy.org/
 .. _awesome-python: https://github.com/vinta/awesome-python
 __ https://github.com/sindresorhus/awesome
 __ https://creativecommons.org/licenses/by-sa/4.0/
@@ -105,7 +105,7 @@ sqlalchemy-migrate_
 Dialects
 --------
 
-http://docs.sqlalchemy.org/en/latest/dialects/
+https://docs.sqlalchemy.org/en/latest/dialects/
 
 redshift_sqlalchemy_
    `Amazon Redshift`_ dialect for SQLAlchemy.
@@ -120,7 +120,7 @@ GINO_
 
 .. _Amazon Redshift: https://aws.amazon.com/redshift/
 .. _redshift_sqlalchemy: https://github.com/binarydud/redshift_sqlalchemy
-.. _Sphinx: http://sphinxsearch.com/
+.. _Sphinx: https://sphinxsearch.com/
 .. _sphinxalchemy: https://sphinxalchemy.readthedocs.io/
 .. _GINO: https://github.com/fantix/gino
 .. _asyncpg: https://github.com/MagicStack/asyncpg
@@ -129,11 +129,11 @@ GINO_
 Documentation
 -------------
 
-* http://docs.sqlalchemy.org/en/latest/
-* http://docs.sqlalchemy.org/en/latest/intro.html
-* http://docs.sqlalchemy.org/en/latest/core/tutorial.html
-* http://docs.sqlalchemy.org/en/latest/orm/tutorial.html
-* http://docs.sqlalchemy.org/en/latest/glossary.html
+* https://docs.sqlalchemy.org/en/latest/
+* https://docs.sqlalchemy.org/en/latest/intro.html
+* https://docs.sqlalchemy.org/en/latest/core/tutorial.html
+* https://docs.sqlalchemy.org/en/latest/orm/tutorial.html
+* https://docs.sqlalchemy.org/en/latest/glossary.html
 
 
 File and Image Attachments
@@ -198,7 +198,7 @@ Sprox_
 .. _FormAlchemy: https://github.com/FormAlchemy/formalchemy
 .. _WTForms: https://wtforms.readthedocs.io/
 .. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.io/
-.. _Sprox: http://sprox.org/
+.. _Sprox: https://sprox.org/
 
 
 Full-text Searching
@@ -235,8 +235,8 @@ GeoAlchemy_
 
 .. _GeoAlchemy: https://geoalchemy.readthedocs.io/
 .. _GeoAlchemy 2: https://geoalchemy-2.readthedocs.io/
-.. _PostGIS: http://postgis.refractions.net/
-.. _Spatialite: http://www.gaia-gis.it/gaia-sins/
+.. _PostGIS: https://postgis.refractions.net/
+.. _Spatialite: https://www.gaia-gis.it/gaia-sins/
 
 
 Internationalizations
@@ -452,10 +452,10 @@ zope.sqlalchemy_
    As such it seeks only to provide a data manager and makes no attempt
    to define a zopeish way to configure engines.
 
-.. _Bottle: http://bottlepy.org/
+.. _Bottle: https://bottlepy.org/
 .. _bottle-sqlalchemy: https://github.com/iurisilvio/bottle-sqlalchemy
 .. _filteralchemy: https://github.com/jmcarp/filteralchemy
-.. _Flask: http://flask.pocoo.org/
+.. _Flask: https://flask.pocoo.org/
 .. _Flask-SQLAlchemy: https://pythonhosted.org/Flask-SQLAlchemy/
 .. _Flask-Admin: https://github.com/flask-admin/flask-admin
 .. _Pyramid: https://trypyramid.com/
@@ -465,7 +465,7 @@ zope.sqlalchemy_
 .. _sacrud: https://sacrud.readthedocs.io/
 .. _SQLAlchemy-Wrapper: https://github.com/jpscaletti/sqlalchemy-wrapper
 .. _webargs: https://github.com/sloria/webargs
-.. _Zope: http://www.zope.org/
+.. _Zope: https://www.zope.org/
 .. _zope.sqlalchemy: https://pypi.org/project/zope.sqlalchemy/
 
 
