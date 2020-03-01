@@ -1,2 +1,3 @@
 *.json
 .*.swp
+.idea/
