@@ -235,7 +235,7 @@ GeoAlchemy_
 
 .. _GeoAlchemy: https://geoalchemy.readthedocs.io/
 .. _GeoAlchemy 2: https://geoalchemy-2.readthedocs.io/
-.. _PostGIS: https://postgis.refractions.net/
+.. _PostGIS: https://postgis.net/
 .. _Spatialite: https://www.gaia-gis.it/gaia-sins/
 
 
@@ -281,7 +281,7 @@ nplusone_
    nplusone detects unnecessary queries caused by lazy loading and unused eager loading.
    Integrates with Flask-SQLAlchemy.
 
-.. _flask_debugtoolbar: https://github.com/mgood/flask-debugtoolbar
+.. _flask_debugtoolbar: https://github.com/flask-debugtoolbar/flask-debugtoolbar
 .. _pyramid_debugtoolbar: https://github.com/Pylons/pyramid_debugtoolbar
 .. _SQLTap: https://github.com/inconshreveable/sqltap
 .. _nplusone: https://github.com/jmcarp/nplusone
@@ -302,7 +302,7 @@ sqlakeyset_
 Recipes
 -------
 
-* https://bitbucket.org/zzzeek/sqlalchemy/wiki/UsageRecipes
+* https://github.com/sqlalchemy/sqlalchemy/wiki/UsageRecipes
 
 
 Serialization and deserialization
@@ -438,7 +438,7 @@ sacrud_
    Unlike classical CRUD interface, pyramid_sacrud_ allows override and
    flexibly customize interface (that is closer to ``django.contrib.admin``).
 
-SQLAlchemy-Wrapper_
+SQLA-wrapper_
     A light and framework-independent wrapper for SQLAlchemy that makes
     it really easy to setup and use.
 
@@ -455,7 +455,7 @@ zope.sqlalchemy_
 .. _Bottle: https://bottlepy.org/
 .. _bottle-sqlalchemy: https://github.com/iurisilvio/bottle-sqlalchemy
 .. _filteralchemy: https://github.com/jmcarp/filteralchemy
-.. _Flask: https://flask.pocoo.org/
+.. _Flask: https://palletsprojects.com/p/flask/
 .. _Flask-SQLAlchemy: https://pythonhosted.org/Flask-SQLAlchemy/
 .. _Flask-Admin: https://github.com/flask-admin/flask-admin
 .. _Pyramid: https://trypyramid.com/
@@ -463,8 +463,8 @@ zope.sqlalchemy_
 .. _pyramid_sacrud: https://pyramid-sacrud.readthedocs.io/
 .. _pyramid_sqlalchemy: https://pyramid-sqlalchemy.readthedocs.io/
 .. _sacrud: https://sacrud.readthedocs.io/
-.. _SQLAlchemy-Wrapper: https://github.com/jpscaletti/sqlalchemy-wrapper
-.. _webargs: https://github.com/sloria/webargs
+.. _SQLA-wrapper: https://github.com/jpscaletti/sqla-wrapper
+.. _webargs: https://github.com/marshmallow-code/webargs
 .. _Zope: https://www.zope.org/
 .. _zope.sqlalchemy: https://pypi.org/project/zope.sqlalchemy/
 
