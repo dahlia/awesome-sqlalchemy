@@ -105,7 +105,7 @@ sqlalchemy-migrate_
 Dialects
 --------
 
-https://docs.sqlalchemy.org/en/latest/dialects/
+https://www.sqlalchemy.org/docs/latest/dialects/
 
 redshift_sqlalchemy_
    `Amazon Redshift`_ dialect for SQLAlchemy.
@@ -122,7 +122,7 @@ GINO_
 .. _redshift_sqlalchemy: https://github.com/binarydud/redshift_sqlalchemy
 .. _Sphinx: https://sphinxsearch.com/
 .. _sphinxalchemy: https://sphinxalchemy.readthedocs.io/
-.. _GINO: https://github.com/fantix/gino
+.. _GINO: https://github.com/python-gino/gino
 .. _asyncpg: https://github.com/MagicStack/asyncpg
 
 
