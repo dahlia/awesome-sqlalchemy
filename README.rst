@@ -314,6 +314,11 @@ marshmallow-sqlalchemy_
 .. _marshmallow: https://marshmallow.readthedocs.io/
 .. _marshmallow-sqlalchemy: https://marshmallow-sqlalchemy.readthedocs.io/
 
+sqlalchemy-dict_
+  SQLAlchemy extension for interacting models with python dictionary.
+
+.. _sqlalchemy-dict: https://github.com/meyt/sqlalchemy-dict
+
 
 Testing
 -------
