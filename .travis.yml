@@ -4,4 +4,4 @@ rvm:
 before_script:
 - gem install awesome_bot
 script:
-- awesome_bot README.rst --allow-dupe --white-list ".readthedocs.io/","https://docs.pylonsproject.org","https://bitbucket.org/estin/sadisplay","//bottlepy.org/","//www.zope.org/","//docs.sqlalchemy.org/en/latest/","//www.sqlalchemy.org/docs/latest/"
+- awesome_bot README.rst --allow-dupe --white-list ".readthedocs.io/","https://docs.pylonsproject.org","https://bitbucket.org/estin/sadisplay","//bottlepy.org/","//www.zope.org/","//docs.sqlalchemy.org/en/latest/","//www.sqlalchemy.org/docs/latest/", "//cdn.rawgit.com/", "//sphinxsearch.com/"
