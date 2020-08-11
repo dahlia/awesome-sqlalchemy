@@ -321,6 +321,11 @@ sqlalchemy-dict_
 
 .. _sqlalchemy-dict: https://github.com/meyt/sqlalchemy-dict
 
+pydantic
+  Data parsing and validation using Python type hints
+  
+.. pydantic: https://github.com/samuelcolvin/pydantic
+
 
 Testing
 -------
