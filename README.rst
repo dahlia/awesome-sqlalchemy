@@ -359,11 +359,16 @@ SQLSoup_
    It's built on top of the SQLAlchemy ORM and provides a super-minimalistic
    interface to an existing database.
 
+SQLModel_
+   SQLModel is a library for interacting with SQL databases from Python code, with Python objects. 
+   It is designed to be intuitive, easy to use, highly compatible, and robust. SQLModel is based 
+   on Python type annotations, and powered by Pydantic and SQLAlchemy.
+
 .. _Dataset: https://dataset.readthedocs.io/
 .. _RDFLib: https://github.com/RDFLib/rdflib
 .. _rdflib-sqlalchemy: https://github.com/RDFLib/rdflib-sqlalchemy
 .. _SQLSoup: https://sqlsoup.readthedocs.io/
-
+.. _SQLModel: https://sqlmodel.tiangolo.com/
 
 
 Vendor-specific Extensions
