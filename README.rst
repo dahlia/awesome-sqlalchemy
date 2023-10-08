@@ -111,7 +111,7 @@ redshift_sqlalchemy_
    `Amazon Redshift`_ dialect for SQLAlchemy.
 
 sphinxalchemy_
-   SQLAlchemy dialect for iterfacing with Sphinx_ (search engine) via
+   SQLAlchemy dialect for interfacing with Sphinx_ (search engine) via
    SphinxQL.
 
 GINO_
@@ -321,6 +321,11 @@ sqlalchemy-dict_
 
 .. _sqlalchemy-dict: https://github.com/meyt/sqlalchemy-dict
 
+pydantic
+  Data parsing and validation using Python type hints
+  
+.. pydantic: https://github.com/samuelcolvin/pydantic
+
 
 Testing
 -------
@@ -352,12 +357,20 @@ Dataset_
 
 rdflib-sqlalchemy_
    RDFLib_ store using SQLAlchemy dbapi as back-end.
+   
+PugSQL_
+   Loading and execution of parameterized queries stored in files.
 
 SQLSoup_
    SQLSoup provides a convenient way to map Python objects to
    relational database tables, with no declarative code of any kind.
    It's built on top of the SQLAlchemy ORM and provides a super-minimalistic
    interface to an existing database.
+
+SQLModel_
+   SQLModel is a library for interacting with SQL databases from Python code, with Python objects. 
+   It is designed to be intuitive, easy to use, highly compatible, and robust. SQLModel is based 
+   on Python type annotations, and powered by Pydantic and SQLAlchemy.
 
 Zillion_
    Zillion is a free, open data warehousing and dimensional modeling tool that
@@ -368,7 +381,9 @@ Zillion_
 .. _Dataset: https://dataset.readthedocs.io/
 .. _RDFLib: https://github.com/RDFLib/rdflib
 .. _rdflib-sqlalchemy: https://github.com/RDFLib/rdflib-sqlalchemy
+.. _PugSQL: https://pugsql.org/
 .. _SQLSoup: https://sqlsoup.readthedocs.io/
+.. _SQLModel: https://sqlmodel.tiangolo.com/
 .. _Zillion: https://totalhack.github.io/zillion/
 
 
@@ -457,7 +472,7 @@ SQLA-wrapper_
 
     - Doesn't change the SQLAlchemy syntax.
     - Can paginate the results of the queries.
-    - Support for muliple databases at the same time.
+    - Support for multiple databases at the same time.
 
 zope.sqlalchemy_
    The aim of this package is to unify the plethora of existing packages
