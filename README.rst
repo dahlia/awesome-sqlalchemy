@@ -352,6 +352,9 @@ Dataset_
 
 rdflib-sqlalchemy_
    RDFLib_ store using SQLAlchemy dbapi as back-end.
+   
+PugSQL_
+   Loading and execution of parameterized queries stored in files.
 
 SQLSoup_
    SQLSoup provides a convenient way to map Python objects to
@@ -367,6 +370,7 @@ SQLModel_
 .. _Dataset: https://dataset.readthedocs.io/
 .. _RDFLib: https://github.com/RDFLib/rdflib
 .. _rdflib-sqlalchemy: https://github.com/RDFLib/rdflib-sqlalchemy
+.. _PugSQL: https://pugsql.org/
 .. _SQLSoup: https://sqlsoup.readthedocs.io/
 .. _SQLModel: https://sqlmodel.tiangolo.com/
 
