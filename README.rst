@@ -111,7 +111,7 @@ redshift_sqlalchemy_
    `Amazon Redshift`_ dialect for SQLAlchemy.
 
 sphinxalchemy_
-   SQLAlchemy dialect for iterfacing with Sphinx_ (search engine) via
+   SQLAlchemy dialect for interfacing with Sphinx_ (search engine) via
    SphinxQL.
 
 GINO_
@@ -451,7 +451,7 @@ SQLA-wrapper_
 
     - Doesn't change the SQLAlchemy syntax.
     - Can paginate the results of the queries.
-    - Support for muliple databases at the same time.
+    - Support for multiple databases at the same time.
 
 zope.sqlalchemy_
    The aim of this package is to unify the plethora of existing packages
