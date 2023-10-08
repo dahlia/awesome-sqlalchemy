@@ -372,12 +372,19 @@ SQLModel_
    It is designed to be intuitive, easy to use, highly compatible, and robust. SQLModel is based 
    on Python type annotations, and powered by Pydantic and SQLAlchemy.
 
+Zillion_
+   Zillion is a free, open data warehousing and dimensional modeling tool that
+   allows combining and analyzing data from multiple datasources through a
+   simple API. It writes SQL so you don't have to, and it easily bolts onto
+   existing database infrastructure via SQLAlchemy.
+
 .. _Dataset: https://dataset.readthedocs.io/
 .. _RDFLib: https://github.com/RDFLib/rdflib
 .. _rdflib-sqlalchemy: https://github.com/RDFLib/rdflib-sqlalchemy
 .. _PugSQL: https://pugsql.org/
 .. _SQLSoup: https://sqlsoup.readthedocs.io/
 .. _SQLModel: https://sqlmodel.tiangolo.com/
+.. _Zillion: https://totalhack.github.io/zillion/
 
 
 Vendor-specific Extensions
