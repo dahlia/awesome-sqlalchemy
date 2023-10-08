@@ -169,10 +169,10 @@ ColanderAlchemy_
    remove the need for duplication of schema definitions.
 
 Flask-Validator_
-   Data validator for Flask and SQL-Alchemy, working at Model component 
+   Data validator for Flask and SQL-Alchemy, working at Model component
    with events, preventing invalid data in the columns.
    The extension works with event listeners from SQLAlchemy.
-   
+
 FormAlchemy_
    FormAlchemy eliminates boilerplate by autogenerating HTML input fields from a
    given model. FormAlchemy will try to figure out what kind of HTML code should
@@ -194,7 +194,7 @@ Sprox_
 .. _Colander: https://docs.pylonsproject.org/projects/colander/
 .. _ColanderAlchemy: https://github.com/stefanofontanelli/ColanderAlchemy
 .. _Deform: https://docs.pylonsproject.org/projects/deform/
-.. _Flask-Validator: https://flask-validator.readthedocs.io/ 
+.. _Flask-Validator: https://flask-validator.readthedocs.io/
 .. _FormAlchemy: https://github.com/FormAlchemy/formalchemy
 .. _WTForms: https://wtforms.readthedocs.io/
 .. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.io/
@@ -313,18 +313,16 @@ Serialization and deserialization
 marshmallow-sqlalchemy_
    SQLAlchemy integration with the marshmallow_ (de)serialization library.
 
-.. _marshmallow: https://marshmallow.readthedocs.io/
-.. _marshmallow-sqlalchemy: https://marshmallow-sqlalchemy.readthedocs.io/
+pydantic_
+  Data parsing and validation using Python type hints
 
 sqlalchemy-dict_
   SQLAlchemy extension for interacting models with python dictionary.
 
+.. _marshmallow: https://marshmallow.readthedocs.io/
+.. _marshmallow-sqlalchemy: https://marshmallow-sqlalchemy.readthedocs.io/
+.. _pydantic: https://github.com/samuelcolvin/pydantic
 .. _sqlalchemy-dict: https://github.com/meyt/sqlalchemy-dict
-
-pydantic
-  Data parsing and validation using Python type hints
-  
-.. pydantic: https://github.com/samuelcolvin/pydantic
 
 
 Testing
@@ -357,7 +355,7 @@ Dataset_
 
 rdflib-sqlalchemy_
    RDFLib_ store using SQLAlchemy dbapi as back-end.
-   
+
 PugSQL_
    Loading and execution of parameterized queries stored in files.
 
@@ -368,8 +366,8 @@ SQLSoup_
    interface to an existing database.
 
 SQLModel_
-   SQLModel is a library for interacting with SQL databases from Python code, with Python objects. 
-   It is designed to be intuitive, easy to use, highly compatible, and robust. SQLModel is based 
+   SQLModel is a library for interacting with SQL databases from Python code, with Python objects.
+   It is designed to be intuitive, easy to use, highly compatible, and robust. SQLModel is based
    on Python type annotations, and powered by Pydantic and SQLAlchemy.
 
 Zillion_
@@ -401,15 +399,13 @@ PostgreSQL
 sqlalchemy-crosstab-postgresql_
    New grammar for SQLAlchemy to make handling the ``crosstab()`` tablefunc
    (i.e. pivot tables) in PostgreSQL easy peasy.
-   
+
 sqlalchemy-postgres-copy_
    Wrapper for using PostgreSQL `COPY` with SQLAlchemy for efficient bulk data
    imports and exports.
 
-.. _sqlalchemy-crosstab-postgresql:
-   https://github.com/makmanalp/sqlalchemy-crosstab-postgresql
-.. _sqlalchemy-postgres-copy:
-   https://github.com/jmcarp/sqlalchemy-postgres-copy
+.. _sqlalchemy-crosstab-postgresql: https://github.com/makmanalp/sqlalchemy-crosstab-postgresql
+.. _sqlalchemy-postgres-copy: https://github.com/jmcarp/sqlalchemy-postgres-copy
 
 
 Visualizations
@@ -511,7 +507,7 @@ sandman2_
 
 sqlalchemy_mixins_
    A set of well-tested mixins that brings Active Record, Django-like queries, nested eager load and beauty __repr__ to your SQLAlchemy.
-  
+
 .. _paginate_sqlalchemy: https://github.com/Pylons/paginate_sqlalchemy
 .. _sandman2: https://github.com/jeffknupp/sandman2
 .. _sqlalchemy_mixins: https://github.com/absent1706/sqlalchemy-mixins
