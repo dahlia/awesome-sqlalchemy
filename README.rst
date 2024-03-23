@@ -420,9 +420,13 @@ sqlalchemy_schemadisplay_
 eralchemy_
    ERAlchemy generates Entity Relation (ER) diagram from databases or from SQLAlchemy models.
 
+paracelsus_
+   CLI and Library that generates Mermaid and DOT Diagrams from SQLAlchemy models and injects them into documentation.
+
 .. _sadisplay: https://bitbucket.org/estin/sadisplay
 .. _sqlalchemy_schemadisplay: https://github.com/fschulze/sqlalchemy_schemadisplay
 .. _eralchemy: https://github.com/Alexis-benoist/eralchemy
+.. _paracelsus: https://github.com/tedivm/paracelsus
 
 
 Web
