@@ -241,6 +241,22 @@ GeoAlchemy_
 .. _Spatialite: https://www.gaia-gis.it/gaia-sins/
 
 
+Vector Search
+-------------
+
+pgvector-python_
+   pgvector-python extends sqlalchemy to natively work with pgvectors
+   similarity queries.
+
+pgai_
+   pgai allows to easily create vector embeddings for sqlalchemy models
+   and takes care of any synchronization effort. Built on top of postgres
+   and pgvector.
+
+.. _pgvector-python: https://github.com/pgvector/pgvector-python
+.. _pgai: https://github.com/timescale/pgai/blob/main/docs/vectorizer/python-integration.md
+
+
 Internationalizations
 ---------------------
 
