@@ -480,6 +480,13 @@ zope.sqlalchemy_
    As such it seeks only to provide a data manager and makes no attempt
    to define a zopeish way to configure engines.
 
+context-async-sqlalchemy_
+   Provides a convenient way to work with sessions in asynchronous applications using context.
+   It handles the lifecycle management of the engine, sessions, and transactions.
+   The main goal is to provide quick and easy access to a session,
+   without worrying about opening or closing it when it’s not necessary.
+
+
 .. _Bottle: https://bottlepy.org/
 .. _bottle-sqlalchemy: https://github.com/iurisilvio/bottle-sqlalchemy
 .. _filteralchemy: https://github.com/jmcarp/filteralchemy
@@ -495,6 +502,7 @@ zope.sqlalchemy_
 .. _webargs: https://github.com/marshmallow-code/webargs
 .. _Zope: https://www.zope.org/
 .. _zope.sqlalchemy: https://pypi.org/project/zope.sqlalchemy/
+.. _context-async-sqlalchemy: https://github.com/krylosov-aa/context-async-sqlalchemy
 
 
 Other
