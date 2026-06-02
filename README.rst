@@ -94,11 +94,18 @@ Alembic_
    Alembic is a lightweight database migration tool for usage with the
    SQLAlchemy Database Toolkit for Python.
 
+alembic-git-revisions_
+   Derives Alembic migration order from git commit history instead of a
+   hardcoded ``down_revision``, so migrations created on parallel branches
+   never collide on merge and the ``Multiple head revisions are present``
+   error stops happening.
+
 sqlalchemy-migrate_
    Inspired by Ruby on Rails' migrations, SQLAlchemy Migrate provides
    a way to deal with database schema changes in SQLAlchemy projects.
 
 .. _Alembic: https://alembic.readthedocs.io/
+.. _alembic-git-revisions: https://github.com/Mergifyio/alembic-git-revisions
 .. _sqlalchemy-migrate: https://sqlalchemy-migrate.readthedocs.io/
 
 
