@@ -339,10 +339,16 @@ mixer_
    Generate fake data and create random fixtures for testing in SQLAlchemy
    and many other Python ORM systems.
 
+pytest-mrt_
+   pytest plugin that tests whether Alembic migrations are safely reversible.
+   Runs the actual upgrade/downgrade cycle with real data and does static
+   analysis on migration files.
+
 
 .. _charlatan: https://github.com/uber/charlatan
 .. _factory_boy: https://github.com/FactoryBoy/factory_boy
 .. _mixer: https://github.com/klen/mixer
+.. _pytest-mrt: https://github.com/croc100/pytest-mrt
 
 
 Thin Abstractions
