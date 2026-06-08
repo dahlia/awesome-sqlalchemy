@@ -23,6 +23,15 @@ __ https://creativecommons.org/licenses/by-sa/4.0/
 Data Structures
 ---------------
 
+bemi-sqlalchemy_
+   Automatic data change tracking for SQLAlchemy.
+
+   - Automatically tracks PostgreSQL changes with application-specific context
+   - Captures data changes with 100% reliability, even if executed through direct SQL outside the application
+   - Doesn't affect code runtime execution performance and database workload
+   - Works without changing table structures, rewriting the code, and creating heavy database triggers
+   - Integrates with FastAPI
+
 SQLAlchemy-Continuum_
    Versioning and auditing extension for SQLAlchemy.
 
@@ -51,6 +60,7 @@ SQLAlchemy-ORM-tree_
 vdm_
    Versioned domain model. Python library for revisioning/versioning of databases.
 
+.. _bemi-sqlalchemy: https://github.com/BemiHQ/bemi-sqlalchemy
 .. _django-mptt: https://github.com/django-mptt/django-mptt/
 .. _SQLAlchemy-Continuum: https://sqlalchemy-continuum.readthedocs.io/
 .. _sqlalchemy_mptt: https://sqlalchemy-mptt.readthedocs.io/
