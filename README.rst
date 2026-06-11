@@ -114,9 +114,16 @@ sqlalchemy-migrate_
    Inspired by Ruby on Rails' migrations, SQLAlchemy Migrate provides
    a way to deal with database schema changes in SQLAlchemy projects.
 
+dbconform_
+   Detects and corrects SQLAlchemy schema drift against a live database
+   without migration history or files. Particularly useful when migration
+   history has diverged from reality, or when enforcing schema conformance
+   at application startup.
+
 .. _Alembic: https://alembic.readthedocs.io/
 .. _alembic-git-revisions: https://github.com/Mergifyio/alembic-git-revisions
 .. _sqlalchemy-migrate: https://sqlalchemy-migrate.readthedocs.io/
+.. _dbconform: https://pypi.org/project/dbconform/
 
 
 Dialects
