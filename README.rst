@@ -325,12 +325,16 @@ nplusone_
 Query helpers
 -------------
 
+db-retry_
+   Retry helpers for transient errors in PostgreSQL and SQLAlchemy applications.
+
 sqlakeyset_
    This library implements keyset-based paging for SQLAlchemy (both ORM and core).
 
    This library has been tested with PostgreSQL and MariaDB/MySQL.
    It should work with other SQLAlchemy-supported databases to provided they support ``row(`` syntax.
 
+.. _db-retry: https://github.com/modern-python/db-retry
 .. _sqlakeyset: https://github.com/djrobstep/sqlakeyset
 
 
