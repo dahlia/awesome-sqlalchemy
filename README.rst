@@ -392,6 +392,9 @@ Dataset_
    implicit table creation, bulk loading, and transaction. Dataset also
    includes support for freezing data to CSV and JSON flat files.
 
+faststream-outbox_
+   Transactional outbox integration for FastStream that records messages in a SQLAlchemy-managed table and publishes them reliably within your database transaction.
+
 rdflib-sqlalchemy_
    RDFLib_ store using SQLAlchemy dbapi as back-end.
 
@@ -416,6 +419,7 @@ Zillion_
    existing database infrastructure via SQLAlchemy.
 
 .. _Dataset: https://dataset.readthedocs.io/
+.. _faststream-outbox: https://github.com/modern-python/faststream-outbox
 .. _RDFLib: https://github.com/RDFLib/rdflib
 .. _rdflib-sqlalchemy: https://github.com/RDFLib/rdflib-sqlalchemy
 .. _PugSQL: https://pugsql.org/
