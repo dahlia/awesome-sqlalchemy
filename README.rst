@@ -387,6 +387,17 @@ pytest-mrt_
 Thin Abstractions
 -----------------
 
+Advanced-Alchemy_
+   A carefully crafted, thoroughly tested, optimized companion library for
+   SQLAlchemy.
+
+   - Sync and async repository and service layers to eliminate boilerplate CRUD.
+   - Ready-to-use base models and mixins (UUID/BigInt primary keys, audit
+     columns, slugs).
+   - Extra column types (encrypted strings, files, password hashes, GUIDs).
+   - Built-in Alembic migration tooling and a database management CLI.
+   - Integrations for Litestar, FastAPI, Flask, Sanic, and Starlette.
+
 Dataset_
    Easy-to-use data handling for SQL data stores in Python with support for
    implicit table creation, bulk loading, and transaction. Dataset also
@@ -415,6 +426,7 @@ Zillion_
    simple API. It writes SQL so you don't have to, and it easily bolts onto
    existing database infrastructure via SQLAlchemy.
 
+.. _Advanced-Alchemy: https://github.com/litestar-org/advanced-alchemy
 .. _Dataset: https://dataset.readthedocs.io/
 .. _RDFLib: https://github.com/RDFLib/rdflib
 .. _rdflib-sqlalchemy: https://github.com/RDFLib/rdflib-sqlalchemy
