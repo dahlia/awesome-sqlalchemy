@@ -316,10 +316,20 @@ nplusone_
    nplusone detects unnecessary queries caused by lazy loading and unused eager loading.
    Integrates with Flask-SQLAlchemy.
 
+queryspy_
+   Detect N+1 access patterns and enforce query budgets in SQLAlchemy 2.0,
+   sync and async.
+
+   Names the line of application code responsible and suggests the loader
+   option that fixes it. Provides pytest assertions and a ``--queryspy-strict``
+   gate, an ASGI middleware with a per-request debug panel, and SARIF output
+   for GitHub code scanning.
+
 .. _flask_debugtoolbar: https://github.com/flask-debugtoolbar/flask-debugtoolbar
 .. _pyramid_debugtoolbar: https://github.com/Pylons/pyramid_debugtoolbar
 .. _SQLTap: https://github.com/inconshreveable/sqltap
 .. _nplusone: https://github.com/jmcarp/nplusone
+.. _queryspy: https://github.com/sqla-native/queryspy
 
 
 Query helpers
