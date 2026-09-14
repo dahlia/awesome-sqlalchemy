@@ -462,10 +462,14 @@ eralchemy_
 paracelsus_
    CLI and Library that generates Mermaid and DOT Diagrams from SQLAlchemy models and injects them into documentation.
 
+erdify_
+   Generates PlantUML, Mermaid, JSON or HTML ER diagrams from SQLAlchemy models by parsing the source with ``ast`` - no imports, no database connection, no runtime dependencies.
+
 .. _sadisplay: https://bitbucket.org/estin/sadisplay
 .. _sqlalchemy_schemadisplay: https://github.com/fschulze/sqlalchemy_schemadisplay
 .. _eralchemy: https://github.com/Alexis-benoist/eralchemy
 .. _paracelsus: https://github.com/tedivm/paracelsus
+.. _erdify: https://github.com/devsuit-berlin/erdify
 
 
 Web
