@@ -32,6 +32,21 @@ bemi-sqlalchemy_
    - Works without changing table structures, rewriting the code, and creating heavy database triggers
    - Integrates with FastAPI
 
+sqlalchemy-audit-trail_
+   Audit trail for SQLAlchemy on PostgreSQL: field-level change diffs and
+   explicit domain events in one partitioned log.
+
+   - Records created, updated and deleted diffs at flush time, in the same
+     transaction as the change.
+   - Domain events with severities, optional pydantic payload schemas, and
+     durable or fail-closed writes.
+   - Request context (actor, IP address, user agent, path) on every entry,
+     with FastAPI middleware.
+   - Per-column redact, hash and exclude policies, pseudonymized payload
+     fields, and erasure for GDPR requests.
+   - Tables partitioned by severity and month; retention drops partitions.
+   - Works with Session and AsyncSession (psycopg 3, asyncpg).
+
 SQLAlchemy-Continuum_
    Versioning and auditing extension for SQLAlchemy.
 
@@ -62,6 +77,7 @@ vdm_
 
 .. _bemi-sqlalchemy: https://github.com/BemiHQ/bemi-sqlalchemy
 .. _django-mptt: https://github.com/django-mptt/django-mptt/
+.. _sqlalchemy-audit-trail: https://github.com/WiktorB2004/sqlalchemy-audit-trail
 .. _SQLAlchemy-Continuum: https://sqlalchemy-continuum.readthedocs.io/
 .. _sqlalchemy_mptt: https://sqlalchemy-mptt.readthedocs.io/
 .. _SQLAlchemy-ORM-tree: https://sqlalchemy-orm-tree.readthedocs.io/
