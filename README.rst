@@ -377,11 +377,16 @@ pytest-mrt_
    Runs the actual upgrade/downgrade cycle with real data and does static
    analysis on migration files.
 
+pytest-queryguard_
+   pytest plugin that fails tests with N+1 queries and enforces query budgets
+   for SQLAlchemy 2, in sync, async and FastAPI code.
+
 
 .. _charlatan: https://github.com/uber/charlatan
 .. _factory_boy: https://github.com/FactoryBoy/factory_boy
 .. _mixer: https://github.com/klen/mixer
 .. _pytest-mrt: https://github.com/croc100/pytest-mrt
+.. _pytest-queryguard: https://github.com/MaciejZiel/pytest-queryguard
 
 
 Thin Abstractions
