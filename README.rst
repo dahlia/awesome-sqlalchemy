@@ -333,6 +333,13 @@ sqlakeyset_
 
 .. _sqlakeyset: https://github.com/djrobstep/sqlakeyset
 
+fastapi-viewsets_
+   Django REST Framework-style ViewSets for FastAPI that generate CRUD endpoints from
+   SQLAlchemy models (sync and async), with declarative eager loading
+   (``joinedload``/``selectinload``), search, ordering and filters.
+
+.. _fastapi-viewsets: https://github.com/svalench/fastapi_viewsets
+
 
 Recipes
 -------
