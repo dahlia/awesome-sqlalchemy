@@ -316,10 +316,17 @@ nplusone_
    nplusone detects unnecessary queries caused by lazy loading and unused eager loading.
    Integrates with Flask-SQLAlchemy.
 
+flask-lens_
+   Real-time developer observability console, SQL/N+1 profiler with ``file:line``
+   attribution, read-only ``EXPLAIN`` analyzer, ``cProfile`` SVG flamegraph,
+   request replayer, and ``assert_num_queries`` pytest guardrails for Flask
+   and SQLAlchemy 2.0.
+
 .. _flask_debugtoolbar: https://github.com/flask-debugtoolbar/flask-debugtoolbar
 .. _pyramid_debugtoolbar: https://github.com/Pylons/pyramid_debugtoolbar
 .. _SQLTap: https://github.com/inconshreveable/sqltap
 .. _nplusone: https://github.com/jmcarp/nplusone
+.. _flask-lens: https://github.com/duhanguler/flask-lens
 
 
 Query helpers
