@@ -490,6 +490,11 @@ Flask-Admin_
    The admin interface framework for Flask_.
    With scaffolding for SQLAlchemy, MongoEngine, pymongo and Peewee.
 
+flask-deck_
+   Fail-closed enterprise admin panel and operations workbench for Flask_
+   and SQLAlchemy 2.0 with zero Node build, strict nonce CSP, RBAC, TOTP 2FA,
+   keyset cursor pagination, dry-run import diffs, and field-level audit logs.
+
 pyramid_sqlalchemy_
   pyramid_sqlalchemy provides everything needed to use SQLAlchemy in
   Pyramid_ applications.
@@ -532,6 +537,7 @@ context-async-sqlalchemy_
 .. _Flask: https://palletsprojects.com/p/flask/
 .. _Flask-SQLAlchemy: https://pythonhosted.org/Flask-SQLAlchemy/
 .. _Flask-Admin: https://github.com/flask-admin/flask-admin
+.. _flask-deck: https://github.com/duhanguler/flask-deck
 .. _Pyramid: https://trypyramid.com/
 .. _pyramid_restler: https://github.com/wylee/pyramid_restler
 .. _pyramid_sacrud: https://pyramid-sacrud.readthedocs.io/
